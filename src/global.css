@@ -1,0 +1,11 @@
+:root {
+    /* Main Colors */
+    --c-background-1: rgb(12, 19, 37);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
