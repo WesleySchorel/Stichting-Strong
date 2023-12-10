@@ -12,7 +12,7 @@
   <article>
     <div class="projects-container">
       {#each slice.items as item}
-        <a href="/projects/{item.project_title}">
+        <a href="/">
           <div class="project">
             <img
               src={item.project_image.url}
