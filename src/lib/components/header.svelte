@@ -42,4 +42,10 @@ import { page } from "$app/stores";
         color: var(--link);
         font-weight: 700;
     }
+
+    @media screen and (max-width: 480px) {
+        nav {
+            display: none;
+        }
+    }
 </style>

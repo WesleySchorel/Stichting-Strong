@@ -74,5 +74,9 @@
       grid-auto-flow: row;
       grid-template-areas: "text" "img";
     }
+
+    .text-container {
+      margin: 1.5rem;
+    }
   }
 </style>
