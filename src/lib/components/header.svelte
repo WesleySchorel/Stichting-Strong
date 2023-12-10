@@ -40,5 +40,6 @@ import { page } from "$app/stores";
 
     li .active {
         color: var(--link);
+        font-weight: 700;
     }
 </style>

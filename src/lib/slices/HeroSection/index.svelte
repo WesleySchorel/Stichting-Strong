@@ -1,67 +1,78 @@
 <script>
-  /** @type {import("@prismicio/client").Content.HeroSectionSlice} */
+  /** @type {import("@prismicio/client").Content.IntroductionSlice} */
   import Header from '$lib/components/header.svelte';
   export let slice;
 </script>
 
-<section
-  data-slice-type={slice.slice_type}
-  data-slice-variation={slice.variation}
-></section>
-
-<div class="container">
-  <section class="text">
-    <Header />
-    <h1><span>{slice.primary.title}</span></h1>
-    <p>{slice.primary.text}</p>
-    <a href="#/">Over de stichting →</a>
-  </section>
-
-  <div class="border">
-    <div class="media">
-      <img src={slice.primary.image.url} alt="Strong conferentie" />
+  <div class="grid">
+    <section class="text-container">
+      <Header />
+      <h1><span>{slice.primary.title}</span></h1>
+      <p>{slice.primary.text}</p>
+      <a href="#/">Over de stichting →</a>
+    </section>
+    
+    <div class="img-container">
+      <img src={slice.primary.image.url} alt="Strong kinderrechtenconferentie" />
     </div>
   </div>
-</div>
 
 <style>
-  .container {
+  div.grid {
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "text media";
+    grid-template-areas: "text img";
+    margin: auto;
+    /* border: 3px solid red; */
   }
 
-  .text {
+  .text-container {
     grid-area: text;
-    width: 75%;
-    margin: 10rem 0 0 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    width: 76%;
+    margin: 8rem;
+    margin-top: 10rem;
+  }
+
+  .img-container {
+    grid-area: img;
+    display: flex;
+
+    border-bottom: 1.5rem solid var(--border);
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
+    overflow: hidden;
+  }
+
+  img {
+    width: 145%;
+    height: auto;
+    margin-left: -20%;
   }
 
   p {
     margin-top: 1rem;
   }
 
-  .media {
-    display: flex;
-    align-items: start;
-    justify-content: flex-end;
-    overflow: hidden;
-    position: absolute;
-    border-bottom: 1.5rem solid var(--border);
-    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
+  a {
+    margin-top: 1rem;
   }
 
-  img {
-    width: 150%;
-    height: auto;
-    margin-right: -25%;
-  }
-
-  .text a {
-    line-height: 4rem;
+  @media screen and (max-width: 480px) {
+    div.grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas: "text" "img";
+    }
   }
 </style>
