@@ -84,10 +84,30 @@ export interface HeroSectionSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   title: prismic.KeyTextField;
+
+  /**
+   * text field in *HeroSection → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.primary.text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text: prismic.KeyTextField;
+
+  /**
+   * image field in *HeroSection → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
 }
 
 /**
- * Default variation for HeroSection Slice
+ * HeroSection variation for HeroSection Slice
  *
  * - **API ID**: `default`
  * - **Description**: Default

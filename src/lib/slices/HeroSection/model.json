@@ -6,7 +6,7 @@
   "variations": [
     {
       "id": "default",
-      "name": "Default",
+      "name": "HeroSection",
       "docURL": "...",
       "version": "initial",
       "description": "Default",
@@ -17,6 +17,21 @@
           "config": {
             "label": "title",
             "placeholder": ""
+          }
+        },
+        "text": {
+          "type": "Text",
+          "config": {
+            "label": "text",
+            "placeholder": ""
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": []
           }
         }
       },
