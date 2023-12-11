@@ -9,7 +9,7 @@
   <ul>
     {#each slice.items as item}
       <li>
-        <a href={item.link.url} target="_blank">{item.link}</a>
+         <a href={item.link.url} target="_blank">{item.link}</a>
       </li>
       {/each}
   </ul>
@@ -35,13 +35,15 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 0.1rem;
+    column-gap: 2rem;
   }
 
   li {
-    width: 95%;
     text-overflow: ellipsis;
-    overflow-x: hidden;
     white-space: nowrap;
+    overflow-x: hidden;
+    list-style-position: inside;
+    list-style-type: "◆ ";
   }
 
   @media screen and (max-width: 480px) {

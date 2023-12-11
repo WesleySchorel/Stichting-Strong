@@ -45,15 +45,20 @@
     grid-area: img;
     display: flex;
 
-    border-bottom: 1.5rem solid var(--border);
+    /* border-bottom: 1.5rem solid var(--border); */
+    padding: 1.5rem;
+    background-color: var(--border);
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
     overflow: hidden;
+    margin: -1.5rem -1.5rem 0 0;
   }
 
   img {
-    width: 145%;
+    width: 100%;
     height: auto;
-    margin-left: -20%;
+    /* margin-left: -20%; */
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
+    object-fit: cover;
   }
 
   p {
