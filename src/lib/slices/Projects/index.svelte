@@ -3,10 +3,6 @@
   export let slice;
 </script>
 
-
-
-
-
 <section>
   <h2>{slice.primary.title}</h2>
   <article>

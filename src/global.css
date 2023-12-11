@@ -5,6 +5,7 @@
     --text: rgb(0, 0, 0);
 
     --border: rgb(180, 230, 255);
+    --hr: rgb(0, 130, 200);
 
     --link: rgb(0, 130, 200);
 
@@ -62,6 +63,10 @@ a {
     }
 
     p {
+        font-size: 1.125rem;
+    }
+
+    a {
         font-size: 1.125rem;
     }
   }

@@ -5,6 +5,7 @@ import type * as prismic from "@prismicio/client";
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
 type HomepageDocumentDataSlicesSlice =
+  | LinksSlice
   | ProjectsSlice
   | BannerSlice
   | HeroSectionSlice;
@@ -202,6 +203,63 @@ export type HeroSectionSlice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *Links → Primary*
+ */
+export interface LinksSliceDefaultPrimary {
+  /**
+   * title field in *Links → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: links.primary.title
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+}
+
+/**
+ * Primary content in *Links → Items*
+ */
+export interface LinksSliceDefaultItem {
+  /**
+   * link field in *Links → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: links.items[].link
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  link: prismic.KeyTextField;
+}
+
+/**
+ * Links variation for Links Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type LinksSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<LinksSliceDefaultPrimary>,
+  Simplify<LinksSliceDefaultItem>
+>;
+
+/**
+ * Slice variation for *Links*
+ */
+type LinksSliceVariation = LinksSliceDefault;
+
+/**
+ * Links Shared Slice
+ *
+ * - **API ID**: `links`
+ * - **Description**: Links
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type LinksSlice = prismic.SharedSlice<"links", LinksSliceVariation>;
+
+/**
  * Primary content in *Projects → Primary*
  */
 export interface ProjectsSliceDefaultPrimary {
@@ -303,6 +361,11 @@ declare module "@prismicio/client" {
       HeroSectionSliceDefaultPrimary,
       HeroSectionSliceVariation,
       HeroSectionSliceDefault,
+      LinksSlice,
+      LinksSliceDefaultPrimary,
+      LinksSliceDefaultItem,
+      LinksSliceVariation,
+      LinksSliceDefault,
       ProjectsSlice,
       ProjectsSliceDefaultPrimary,
       ProjectsSliceDefaultItem,
