@@ -9,7 +9,7 @@
   <ul>
     {#each slice.items as item}
       <li>
-         <a href={item.link.url} target="_blank">{item.link}</a>
+         <a href={item.link} target="_blank">{item.link}</a>
       </li>
       {/each}
   </ul>
