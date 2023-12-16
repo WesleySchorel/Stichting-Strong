@@ -4,6 +4,49 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
+/**
+ * Content for conferentie documents
+ */
+interface ConferentieDocumentData {
+  /**
+   * title field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * description field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  description: prismic.KeyTextField;
+}
+
+/**
+ * conferentie document from Prismic
+ *
+ * - **API ID**: `conferentie`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type ConferentieDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<ConferentieDocumentData>,
+    "conferentie",
+    Lang
+  >;
+
 type HomepageDocumentDataSlicesSlice =
   | LinksSlice
   | ProjectsSlice
@@ -73,7 +116,7 @@ export type HomepageDocument<Lang extends string = string> =
     Lang
   >;
 
-export type AllDocumentTypes = HomepageDocument;
+export type AllDocumentTypes = ConferentieDocument | HomepageDocument;
 
 /**
  * Primary content in *Banner → Primary*
@@ -349,6 +392,8 @@ declare module "@prismicio/client" {
 
   namespace Content {
     export type {
+      ConferentieDocument,
+      ConferentieDocumentData,
       HomepageDocument,
       HomepageDocumentData,
       HomepageDocumentDataSlicesSlice,
