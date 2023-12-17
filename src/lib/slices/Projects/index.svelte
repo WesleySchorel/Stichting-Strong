@@ -10,10 +10,7 @@
       {#each slice.items as item}
         <a href="/">
           <div class="project">
-            <img
-              src={item.project_image.url}
-              alt={item.project_title}
-            />
+            <img src={item.project_image.url} alt={item.project_title} />
             <h3>{item.project_title}</h3>
             <p>{item.project_text}</p>
           </div>
@@ -24,11 +21,11 @@
 </section>
 
 <style>
-section {
-  background-color: var(--secondary-bg);
-  padding: 6rem 0 8rem 0;
-  /* border: 3px solid red; */
-}
+  section {
+    background-color: var(--secondary-bg);
+    padding: 6rem 0 8rem 0;
+    /* border: 3px solid red; */
+  }
 
   article {
     display: flex;

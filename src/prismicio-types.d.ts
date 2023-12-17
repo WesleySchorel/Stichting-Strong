@@ -9,6 +9,28 @@ type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
  */
 interface ConferentieDocumentData {
   /**
+   * image field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * date field in *conferentie*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
    * title field in *conferentie*
    *
    * - **Field Type**: Text
@@ -18,17 +40,6 @@ interface ConferentieDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   title: prismic.KeyTextField;
-
-  /**
-   * description field in *conferentie*
-   *
-   * - **Field Type**: Text
-   * - **Placeholder**: *None*
-   * - **API ID Path**: conferentie.description
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#key-text
-   */
-  description: prismic.KeyTextField;
 }
 
 /**

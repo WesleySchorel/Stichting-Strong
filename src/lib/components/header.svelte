@@ -5,7 +5,7 @@ import { page } from "$app/stores";
 <nav>
     <ul>
      <li><a href="/" class:active={$page.url.pathname === "/"}>Home</a></li>
-        <li><a href="/" class:active={$page.url.pathname === "/Estafettemars"}>Estafettemars</a></li>
+        <li><a href="/estafettemars" class:active={$page.url.pathname === "/estafettemars"}>Estafettemars</a></li>
         <li><a href="/" class:active={$page.url.pathname === "/Workshops"}>Workshops</a></li>
         <li><a href="/" class:active={$page.url.pathname === "/Education"}>Education</a></li>
         <li><a href="/" class:active={$page.url.pathname === "/Over-STRONG"}>Over STRONG</a></li>
@@ -40,7 +40,6 @@ import { page } from "$app/stores";
 
     li .active {
         color: var(--link);
-        font-weight: 700;
     }
 
     @media screen and (max-width: 480px) {

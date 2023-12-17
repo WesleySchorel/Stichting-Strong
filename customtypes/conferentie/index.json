@@ -12,17 +12,25 @@
         },
         "type": "UID"
       },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "date": {
+        "type": "Date",
+        "config": {
+          "label": "date",
+          "placeholder": ""
+        }
+      },
       "title": {
         "type": "Text",
         "config": {
           "label": "title",
-          "placeholder": ""
-        }
-      },
-      "description": {
-        "type": "Text",
-        "config": {
-          "label": "description",
           "placeholder": ""
         }
       }
