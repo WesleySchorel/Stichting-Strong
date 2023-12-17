@@ -6,9 +6,9 @@ import { page } from "$app/stores";
     <ul>
      <li><a href="/" class:active={$page.url.pathname === "/"}>Home</a></li>
         <li><a href="/estafettemars" class:active={$page.url.pathname === "/estafettemars"}>Estafettemars</a></li>
-        <li><a href="/" class:active={$page.url.pathname === "/Workshops"}>Workshops</a></li>
-        <li><a href="/" class:active={$page.url.pathname === "/Education"}>Education</a></li>
-        <li><a href="/" class:active={$page.url.pathname === "/Over-STRONG"}>Over STRONG</a></li>
+        <li><a href="/workshops" class:active={$page.url.pathname === "/workshops"}>Workshops</a></li>
+        <li><a href="/education" class:active={$page.url.pathname === "/education"}>Education</a></li>
+        <li><a href="/over-strong" class:active={$page.url.pathname === "/over-strong"}>Over STRONG</a></li>
     </ul>
 </nav>
 

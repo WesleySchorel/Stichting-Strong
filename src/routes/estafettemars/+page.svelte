@@ -92,17 +92,6 @@
     transition: 0.2s;
   }
 
-  @media screen and (max-width: 480px) {
-    .conferenties-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-
-    img {
-      height: 12rem;
-      width: 100%;
-    }
-  }
-
   div.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -135,6 +124,15 @@
   }
 
   @media screen and (max-width: 480px) {
+    .conferenties-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    img {
+      height: 12rem;
+      width: 100%;
+    }
+
     div.grid {
       display: grid;
       grid-template-columns: 1fr;
