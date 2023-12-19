@@ -127,7 +127,93 @@ export type HomepageDocument<Lang extends string = string> =
     Lang
   >;
 
-export type AllDocumentTypes = ConferentieDocument | HomepageDocument;
+/**
+ * Content for nieuws documents
+ */
+interface NieuwsDocumentData {
+  /**
+   * title field in *nieuws*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * description field in *nieuws*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  description: prismic.KeyTextField;
+
+  /**
+   * text field in *nieuws*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text: prismic.KeyTextField;
+
+  /**
+   * image field in *nieuws*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * date field in *nieuws*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
+   * read_time field in *nieuws*
+   *
+   * - **Field Type**: Number
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.read_time
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#number
+   */
+  read_time: prismic.NumberField;
+}
+
+/**
+ * nieuws document from Prismic
+ *
+ * - **API ID**: `nieuws`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type NieuwsDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<Simplify<NieuwsDocumentData>, "nieuws", Lang>;
+
+export type AllDocumentTypes =
+  | ConferentieDocument
+  | HomepageDocument
+  | NieuwsDocument;
 
 /**
  * Primary content in *Banner → Primary*
@@ -408,6 +494,8 @@ declare module "@prismicio/client" {
       HomepageDocument,
       HomepageDocumentData,
       HomepageDocumentDataSlicesSlice,
+      NieuwsDocument,
+      NieuwsDocumentData,
       AllDocumentTypes,
       BannerSlice,
       BannerSliceDefaultPrimary,

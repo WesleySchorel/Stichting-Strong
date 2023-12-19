@@ -11,6 +11,8 @@
 
     --primary-bg: rgb(255, 255, 255);
     --secondary-bg: rgb(235, 248, 255);
+    --banner-bg: rgb(180, 230, 255);
+    --footer-bg: rgb(219, 242, 255);
 }
 
 * {
@@ -40,7 +42,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 22px;
     color: var(--text);
 }
 

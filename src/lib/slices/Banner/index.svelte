@@ -18,7 +18,7 @@
   }
 
   section {
-    background-color: rgb(180, 230, 255);
+    background-color: var(--banner-bg);
     padding: 4rem;
     border-radius: 10px;
   }
