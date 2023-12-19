@@ -13,19 +13,18 @@
 
 <div class="nieuws-container">
   <div class="categorieën">
-    <h2>Categorieën</h2>
-    <ul>
-      <li>Algemeen</li>
-      <li>Aankondigingen</li>
-      <li>Overig</li>
-    </ul>
+    <h3>Blijf op de hoogte..</h3>
+    <p>
+      Welkom op onze nieuwspagina, waar we je op de hoogte houden van het
+      laatste en meest relevante nieuws over Stichting Strong.
+    </p>
   </div>
 
   <div class="articles">
     {#each data.nieuws as nieuws}
       <a href="/nieuws/{nieuws.uid}">
         <article>
-          <h2>{nieuws.data.title}</h2>
+          <h3>{nieuws.data.title}</h3>
           <p>
             {nieuws.data.description}
           </p>
@@ -50,6 +49,7 @@
 
   .categorieën {
     grid-area: categorieën;
+    width: 90%;
   }
 
   .articles {
@@ -70,11 +70,6 @@
 
   span {
     font-size: 1.2rem;
-  }
-
-  li {
-    list-style: none;
-    font-size: 1.5rem;
   }
 
   div.grid {

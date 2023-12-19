@@ -9,7 +9,7 @@
     <Header />
     <h1><span>{slice.primary.title}</span></h1>
     <p>{slice.primary.text}</p>
-    <a href="/over-strong">Over de stichting →</a>
+    <a href="/over-ons">Over de stichting →</a>
   </section>
 
   <div class="img-container">

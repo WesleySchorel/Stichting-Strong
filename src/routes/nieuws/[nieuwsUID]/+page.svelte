@@ -8,16 +8,16 @@
   <section class="text-container">
     <Header />
     <h1>Nieuws</h1>
+    <h2>{data.nieuws.data.title}</h2>
+    <span
+      >{data.nieuws.data.date} · {data.nieuws.data.read_time} min leestijd</span
+    >
   </section>
 </div>
 
 <div class="container">
-  <div class="nieuws-text-container">
-    <h2>{data.nieuws.data.title}</h2>
-    <span>{data.nieuws.data.date} · {data.nieuws.data.read_time} min leestijd</span><br><br>
+  <div class="primary-text-container">
     <p>{@html data.nieuws.data.text}</p>
-  </div>
-  <div class="media-container">
     <img src={data.nieuws.data.image.url} alt={data.nieuws.data.title} />
   </div>
 </div>
@@ -25,32 +25,37 @@
 <style>
   .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "text-container media-container";
+    grid-template-areas: "text-container";
     margin: 0rem 8rem 8rem 8rem;
+    width: 76%;
   }
 
-  .nieuws-text-container {
+  .primary-text-container {
     grid-area: text-container;
     width: 95%;
   }
 
-  .media-container {
-    grid-area: media-container;
+  h2 {
+    margin: 4rem 0rem 0rem 0rem;
+    color: rgb(0, 130, 200);
+    width: 76%;
   }
 
-  p {
-    margin-top: 1rem;
+  span {
+    margin: 1rem 0rem 2rem 0rem;
+    font-size: 1.2rem;
+    color: rgb(0, 130, 200);
   }
 
-  img {
-    margin: 1rem;
+  img{
     width: auto;
-    height: 28rem;
+    height: 22rem;
+    margin: 2rem 0rem 0rem 0rem;
     border-radius: 5px;
   }
 
@@ -72,10 +77,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 8rem 8rem 4rem 8rem;
+    margin: 8rem 8rem 0rem 8rem;
     margin-top: 10rem;
   }
-
 
   @media screen and (max-width: 480px) {
     div.grid {
