@@ -120,12 +120,6 @@
     transition: 0.2s;
   }
 
-  @media screen and (max-width: 480px) {
-    .documents-container {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-
   h2 {
     margin-bottom: 1rem;
   }
@@ -178,6 +172,10 @@
 
     div {
       padding: 4rem 1.5rem 4rem 1.5rem;
+    }
+    
+    .documents-container {
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 </style>

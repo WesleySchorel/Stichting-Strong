@@ -125,5 +125,14 @@
     .text-container {
       margin: 1.5rem;
     }
+
+    .container {
+      margin: 2rem;
+      width: 85%;
+    }
+
+    .list-container li {
+      font-size: 18px;
+    }
   }
 </style>
