@@ -21,42 +21,48 @@
   <h2>Belangerijke documenten</h2>
   <article>
     <div class="documents-container">
-<a href="/over-ons/doelstelling-en-anbistatus">
-  <div class="document">
-    <h3>Doelstelling en ANBI status</h3>
-    <p>hoi</p>
-  </div>
-</a>
-<a href="/over-ons/jaarverslagen">
-  <div class="document">
-    <h3>Jaarverslagen</h3>
-    <p>hoi</p>
-  </div>
-</a>
-<a href="/over-ons/comité-van-aanbeveling">
-  <div class="document">
-    <h3>Comité van aanbeveling</h3>
-    <p>hoi</p>
-  </div>
-</a>
-<a href="/over-ons/team-strong">
-  <div class="document">
-    <h3>Team STRONG</h3>
-    <p>hoi</p>
-  </div>
-</a>
-<a href="/over-ons/partners-strong">
-  <div class="document">
-    <h3>Partners STRONG</h3>
-    <p>hoi</p>
-  </div>
-</a>
-<a href="/over-ons/rechten-van-het-kind">
-  <div class="document">
-    <h3>Rechten van het kind</h3>
-    <p>hoi</p>
-  </div>
-</a>
+      <a href="/over-ons/rechten-van-het-kind">
+        <div class="document">
+          <h3>Rechten van het kind</h3>
+          <p>Het Verdrag inzake de rechten van het kind, feiten en acutele cijfers.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
+      <a href="/over-ons/doelstelling-en-anbistatus">
+        <div class="document">
+          <h3>Doelstelling en ANBI status</h3>
+          <p>De doelstelling van de stichting en hij zij dit doel trachten te bereiken.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
+      <a href="/over-ons/jaarverslagen">
+        <div class="document">
+          <h3>Jaarverslagen</h3>
+          <p>Inzichten in de financiële jaarverslagen van stichting strong.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
+      <a href="/over-ons/comité-van-aanbeveling">
+        <div class="document">
+          <h3>Comité van aanbeveling</h3>
+          <p>Een samengestelde groep mensen die zich aansluiten bij de missie van de stichting.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
+      <a href="/over-ons/partners-strong">
+        <div class="document">
+          <h3>Partners STRONG</h3>
+          <p>Bedrijven en organisaties die de doelstelling van de stichting steunen.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
+      <a href="/over-ons/team-strong">
+        <div class="document">
+          <h3>Team STRONG</h3>
+          <p>De mensen achter de projecten en initiatieven van Stichting Strong.</p>
+          <p><b>Lees meer →</b></p>
+        </div>
+      </a>
     </div>
   </article>
 </section>
@@ -76,7 +82,6 @@
 </div> -->
 
 <Links />
-
 
 <style>
   .stichting-info-container {
@@ -102,7 +107,11 @@
   }
 
   .document p {
-    padding: 0.1rem 0 1rem 1rem;
+    padding: 1rem;
+  }
+
+  .document a {
+    padding: 1rem;
   }
 
   a {
@@ -134,10 +143,6 @@
       grid-template-columns: repeat(1, 1fr);
     }
   }
-
-
-
-
 
   h2 {
     margin-bottom: 1rem;
