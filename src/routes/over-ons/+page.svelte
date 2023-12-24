@@ -67,20 +67,6 @@
   </article>
 </section>
 
-<!-- <div class="belangerijke-info">
-  <h2>ANBI STATUS</h2>
-  <hr />
-  <p>De Stichting heeft ten doel:
-    Alle kinderen en jongeren bekend en bewust te maken met het bestaan van hun rechten conform
-    het IVRK (Internationale Verdrag Inzake de Rechten van het Kind) Waarom deze in het leven zijn
-    geroepen? Waarom ze belangrijk zijn. Hoe je deze rechten actief kunt maken en betekenis kunt
-    geven, zowel voor jezelf, als ook voor de medemensen om je heen. Versus het stoppen en
-    voorkomen van het verwaarlozen, mishandelen en doden van kinderen. Conform Art.19: Recht op
-    bescherming tegen alle vormen van geweld welke is ingebed binnen de 54 artikelen van het
-    Internationale Kinderrechtenverdrag. www.kinderrechten.nl En al wat met een en ander rechtstreeks
-    of zijdelings verband houdt of daartoe bevorderlijk kan zijn, alles in de ruimste zin des woord.</p>
-</div> -->
-
 <Links />
 
 <style>
@@ -107,10 +93,6 @@
   }
 
   .document p {
-    padding: 1rem;
-  }
-
-  .document a {
     padding: 1rem;
   }
 
@@ -147,17 +129,6 @@
   h2 {
     margin-bottom: 1rem;
   }
-
-  /* .belangerijke-info {
-    padding: 8rem;
-    border: 3px solid red;
-  }
-
-  hr {
-    padding: 0.1rem;
-    background-color: var(--hr);
-    margin-bottom: 1rem;
-  } */
 
   .text-container p {
     width: 76%;

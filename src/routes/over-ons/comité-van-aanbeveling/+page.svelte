@@ -56,7 +56,7 @@
   .list-container li {
     list-style-position: inside;
     list-style-type: "◆ ";
-    margin-top: 1rem;
+    margin-top: 0.5rem;
   }
 
   .container {

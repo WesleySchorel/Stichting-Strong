@@ -45,9 +45,10 @@
     font-size: 22px;
   }
 
-  .list-container ul {
+  .list-container li {
     list-style-position: inside;
     list-style-type: "◆ ";
+    margin-top: 0.5rem;
   }
 
   .container {
