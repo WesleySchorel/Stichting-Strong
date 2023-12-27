@@ -10,7 +10,7 @@ import { page } from "$app/stores";
             <ul class="dropdown-menu">
                 <li><a href="/estafettemars">Estafettemars</a></li>
                 <li><a href="/workshops">Workshops</a></li>
-                <li><a href="/meldkaart">Meldkaart</a></li>
+                <!-- <li><a href="/meldkaart">Meldkaart</a></li> -->
             </ul>
         </li>
         <li><a href="/education" class:active={$page.url.pathname === "/education"}>Education</a></li>
