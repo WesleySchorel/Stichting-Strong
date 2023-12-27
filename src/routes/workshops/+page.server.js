@@ -1,9 +1,9 @@
-// import { createClient } from "$lib/prismicio"
+import { createClient } from "$lib/prismicio"
 
-// export async function load({fetch, request}){
-//     const client = createClient({fetch, request})
+export async function load({fetch, request}){
+    const client = createClient({fetch, request})
 
-//     const estafettemars = await client.getAllByType('conferentie')
+    const workshops = await client.getAllByType('workshop')
 
-//     return { estafettemars }
-// }
+    return { workshops }
+}

@@ -8,9 +8,9 @@ import { page } from "$app/stores";
         <li class="dropdown">
             <p>Projecten</p>
             <ul class="dropdown-menu">
-                <li><a href="/estafettemars">Estafettemars</a></li>
-                <li><a href="/workshops">Workshops</a></li>
-                <!-- <li><a href="/meldkaart">Meldkaart</a></li> -->
+                <li><a href="/estafettemars" class:active={$page.url.pathname === "/estafettemars"}>Estafettemars</a></li>
+                <li><a href="/workshops" class:active={$page.url.pathname === "/workshops"}>Workshops</a></li>
+                <li><a href="/meldkaart" class:active={$page.url.pathname === "/meldkaart"}>Meldkaart</a></li>
             </ul>
         </li>
         <li><a href="/education" class:active={$page.url.pathname === "/education"}>Education</a></li>

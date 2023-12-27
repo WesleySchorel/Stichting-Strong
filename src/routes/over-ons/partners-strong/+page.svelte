@@ -8,17 +8,62 @@
   <section class="text-container">
     <Header />
     <h1>Over de stichting</h1>
-    <h2>Doellstelling en ANBI status</h2>
+    <h2>Partners van Stichting STRONG</h2>
   </section>
 </div>
 
 <div class="container">
   <div class="primary-text-container">
-    <p>text</p>
+    <p>
+      <span>Over de partners van Stichting Strong:</span><br />
+      Stichting Strong werkt graag samen met bedrijven en organisaties die onze doelen
+      steunen. We vinden het belangrijk om samen met onze partners doelen te bereiken
+      en positieve veranderingen te maken. We waarderen de betrokkenheid van onze
+      partners en geloven dat samenwerken de sleutel is tot succes.
+    </p>
   </div>
 </div>
 
+<div class="list-container">
+  <p>
+    <span>Onze partners:</span>
+  </p>
+  <ul>
+    <li><b>Gemeentelijk stadsarchief</b></li>
+    <li><b>Gemeente Amsterdam</b></li>
+    <li><b>HVA</b></li>
+    <li><b>NUT Fonds</b></li>
+    <li><b>ROC Amsterdam</b></li>
+    <li><b>Stichting Praat</b></li>
+    <li><b>Vredesfonds</b></li>
+  </ul>
+  
+</div>
+
 <style>
+  .list-container {
+    margin-top: 2rem;
+    font-size: 22px;
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .list-container li {
+    list-style-position: inside;
+    list-style: none;
+    padding: 2rem;
+    background-color: var(--banner-bg);
+    border-radius: 10px;
+  }
+
   .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -27,14 +72,20 @@
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "text-container";
-    margin: 0rem 8rem 8rem 8rem;
-    width: 76%;
+    margin: 0rem 8rem 6rem 8rem;
+    width: 70%;
   }
 
   .primary-text-container {
     grid-area: text-container;
     width: 95%;
     margin-top: 1rem;
+  }
+
+  span {
+    color: rgb(0, 130, 200);
+    font-weight: 700;
+    margin-bottom: 2rem;
   }
 
   h2 {
@@ -79,5 +130,21 @@
     .text-container {
       margin: 1.5rem;
     }
+
+    .container {
+      margin: 2rem;
+      width: 85%;
+    }
+
+    .list-container li {
+      font-size: 18px;
+    }
+
+    ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
   }
 </style>

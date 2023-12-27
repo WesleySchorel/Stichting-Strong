@@ -1,6 +1,5 @@
 <script>
   import Header from "$lib/components/header.svelte";
-  import anbi from "$lib/assets/anbi-logo.svg";
 
   export let data;
 </script>
@@ -17,23 +16,100 @@
   <div class="primary-text-container">
     <p>
       <span>De estafettemars van {data.conferentie.data.date}:</span><br />
-      Alle kinderen en jongeren bekend en bewust te maken met het bestaan van hun
-      rechten conform het IVRK (Internationale Verdrag Inzake de Rechten van het
-      Kind) Waarom deze in het leven zijn geroepen? Waarom ze belangrijk zijn. Hoe
-      je deze rechten actief kunt maken en betekenis kunt geven, zowel voor jezelf,
-      als ook voor de medemensen om je heen. Versus het stoppen en voorkomen van
-      het verwaarlozen, mishandelen en doden van kinderen. Conform Art.19: Recht
-      op bescherming tegen alle vormen van geweld welke is ingebed binnen de 54 artikelen
-      van het Internationale Kinderrechtenverdrag. www.kinderrechten.nl En al wat
-      met een en ander rechtstreeks of zijdelings verband houdt of daartoe bevorderlijk
-      kan zijn, alles in de ruimste zin des woord.
+      {data.conferentie.data.text1}
     </p>
   </div>
 </div>
 
+<section class="secondary-bg">
+  <h2>Foto's</h2>
+  <article>
+    <div class="conferenties-container">
+      <img
+        loading="lazy"
+        src={data.conferentie.data.image.url}
+        alt={data.conferentie.data.title}
+      />
+      <img
+        loading="lazy"
+        src={data.conferentie.data.grid2.url}
+        alt={data.conferentie.data.title}
+      />
+      <img
+        loading="lazy"
+        src={data.conferentie.data.grid3.url}
+        alt={data.conferentie.data.title}
+      />
+      <img
+        loading="lazy"
+        src={data.conferentie.data.grid4.url}
+        alt={data.conferentie.data.title}
+      />
+      <img
+        loading="lazy"
+        src={data.conferentie.data.grid5.url}
+        alt={data.conferentie.data.title}
+      />
+      <img
+        loading="lazy"
+        src={data.conferentie.data.grid6.url}
+        alt={data.conferentie.data.title}
+      />
+    </div>
+  </article>
+</section>
 
+<div class="container">
+  <div class="primary-text-container">
+    <h2>MEER OVER {data.conferentie.data.title}</h2>
+    <p>
+      <span>Meer over de estafettemars van {data.conferentie.data.date}:</span><br />
+      {data.conferentie.data.text2}
+    </p>
+  </div>
+</div>
 
 <style>
+  .secondary-bg {
+    background-color: var(--secondary-bg);
+    padding: 6rem;
+    /* border: 3px solid red; */
+  }
+
+  .secondary-bg h2 {
+    color: var(--text);
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+
+  img {
+    height: 16rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    mask-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%),
+      rgba(0, 0, 0, 0) 0%;
+  }
+
+  .conferenties-container {
+    color: var(--c-pink);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
   .container {
     margin: 0rem 8rem 8rem 8rem;
     width: 70%;
@@ -96,6 +172,19 @@
     .container {
       margin: 2rem;
       width: 85%;
+    }
+
+    .conferenties-container {
+      color: var(--c-pink);
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.5rem;
+    }
+
+    .secondary-bg {
+      background-color: var(--secondary-bg);
+      padding: 2rem;
+      /* border: 3px solid red; */
     }
   }
 </style>

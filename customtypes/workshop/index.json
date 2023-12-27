@@ -1,6 +1,6 @@
 {
-  "id": "conferentie",
-  "label": "conferentie",
+  "id": "workshop",
+  "label": "workshop",
   "format": "custom",
   "repeatable": true,
   "status": true,
@@ -93,13 +93,6 @@
         "config": {
           "label": "text2",
           "placeholder": ""
-        }
-      },
-      "slices": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
-        "config": {
-          "choices": {}
         }
       }
     }

@@ -44,7 +44,7 @@
   }
 
   p {
-    padding: 0.5rem 0 1rem 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
   }
 
   a {
@@ -77,6 +77,7 @@
     transform: translateY(-6px);
     opacity: 0.65;
     transition: 0.2s;
+    cursor: pointer;
   }
 
   @media screen and (max-width: 480px) {

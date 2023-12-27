@@ -21,42 +21,55 @@
       steun en draagt bij aan het versterken van het maatschappelijk draagvlak voor
       de initiatieven van Stichting Strong.
     </p>
-    <div class="list-container">
-      <p>
-        <span>Lijst comité van aanbeveling:</span>
-      </p>
-      <ul>
-        <li>Anne Haak; Vertrouwensarts, docent huisartsenopleiding en kinderartsen.</li>
-        <li>Lodewijk Asscher; Oud minister van Sociale Zaken en Werkgelegenheid en vicepremier.</li>
-        <li>Frans Mom; Consultant AIDS and Sexual Rights, Amsterdam.</li>
-        <li>Dr. E.M. van de Putte; Kinderarts, initiator/projectvoerder signalering kindermishandeling Wilhelmina Kinder Ziekenhuis/UMC.</li>
-        <li>Drs. Ingrid van Russel; Kinderarts, voorzitter werkgroep kindermishandeling, Wilhelmina Kinderziekenhuis/UMC.</li>
-        <li>Ben Rensen; Jeugdarts, docent /HAOIO/Cb artsen en publicist kindermishandeling.</li>
-        <li>André Rouvoet; Oud minister van Jeugd en Gezin.</li>
-        <li>Jolande Schoonenberg; Vertrouwensarts Advies en Meldpunt Kindermishandeling Bureau Jeugdzorg Amsterdam.</li>
-        <li>Joost Schrickx; Filmmaker en scenarioschrijver.</li>
-        <li>Rian Teeuw; Kinderarts Emma Kinderziekenhuis-AMC, voorzitter Team Kindermishandeling AMC Cuno.</li>
-        <li>Jaap E. Doek; Voormalig voorzitter van het Internationaal Comité voor de rechten van het kind van de Verenigde Naties.</li>
-        <li>Mw. M.L. van Kleef; Algemeen Directeur, Raad voor de Kinderbescherming Landelijk Bureau Utrecht.</li>
-        <li>Wynie van den Berg; Gezondheidszorgpsychologe, psychosociale afd. Emma Kinder-ziekenhuis.</li>
-        <li>Jacques Vriens; Kinderboekenschrijver van o.a. ‘Groep zeven slaat terug’.</li>
-        <li>S.P.M. Uiterwaal; MD, PhD Associate Professor of clinical epidemiology Jules Center for Health Sciences and Primary Care University Medical Center.</li>
-        <li>Prof.dr. J.C.M. Willems; Bijz. hoogleraar Rechten van het kind, Vrije Universiteit Amsterdam.</li>
-      </ul>      
-    </div>
   </div>
+</div>
+
+<div class="list-container">
+  <p>
+    <span>Lijst comité van aanbeveling:</span>
+  </p>
+  <ul>
+    <li><b>Anne Haak</b>;<br> Vertrouwensarts, docent huisartsenopleiding en kinderartsen.</li>
+    <li><b>Lodewijk Asscher</b>;<br> Oud minister van Sociale Zaken en Werkgelegenheid en vicepremier.</li>
+    <li><b>Frans Mom</b>;<br> Consultant AIDS and Sexual Rights, Amsterdam.</li>
+    <li><b>Dr. E.M. van de Putte</b>;<br> Kinderarts, initiator/projectvoerder signalering kindermishandeling Wilhelmina Kinder Ziekenhuis/UMC.</li>
+    <li><b>Drs. Ingrid van Russel</b>;<br> Kinderarts, voorzitter werkgroep kindermishandeling, Wilhelmina Kinderziekenhuis/UMC.</li>
+    <li><b>Ben Rensen</b>;<br> Jeugdarts, docent /HAOIO/Cb artsen en publicist kindermishandeling.</li>
+    <li><b>André Rouvoet</b>;<br> Oud minister van Jeugd en Gezin.</li>
+    <li><b>Jolande Schoonenberg</b>;<br> Vertrouwensarts Advies en Meldpunt Kindermishandeling Bureau Jeugdzorg Amsterdam.</li>
+    <li><b>Joost Schrickx</b>;<br> Filmmaker en scenarioschrijver.</li>
+    <li><b>Rian Teeuw</b>;<br> Kinderarts Emma Kinderziekenhuis-AMC, voorzitter Team Kindermishandeling AMC Cuno.</li>
+    <li><b>Jaap E. Doek</b>;<br> Voormalig voorzitter van het Internationaal Comité voor de rechten van het kind van de Verenigde Naties.</li>
+    <li><b>Mw. M.L. van Kleef</b>;<br> Algemeen Directeur, Raad voor de Kinderbescherming Landelijk Bureau Utrecht.</li>
+    <li><b>Wynie van den Berg</b>;<br> Gezondheidszorgpsychologe, psychosociale afd. Emma Kinder-ziekenhuis.</li>
+    <li><b>Jacques Vriens</b>;<br> Kinderboekenschrijver van o.a. ‘Groep zeven slaat terug’.</li>
+    <li><b>S.P.M. Uiterwaal</b>;<br> MD, PhD Associate Professor of clinical epidemiology Jules Center for Health Sciences and Primary Care University Medical Center.</li>
+    <li><b>Prof.dr. J.C.M. Willems</b>;<br> Bijz. hoogleraar Rechten van het kind, Vrije Universiteit Amsterdam.</li>
+  </ul>       
 </div>
 
 <style>
   .list-container {
     margin-top: 2rem;
     font-size: 22px;
+    width: 83%;
+    margin: 0 auto;
+    margin-bottom: 8rem;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
   }
 
   .list-container li {
     list-style-position: inside;
-    list-style-type: "◆ ";
-    margin-top: 0.5rem;
+    list-style: none;
+    padding: 2rem;
+    background-color: var(--banner-bg);
+    border-radius: 10px;
   }
 
   .container {
@@ -67,7 +80,7 @@
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas: "text-container";
-    margin: 0rem 8rem 8rem 8rem;
+    margin: 0rem 8rem 6rem 8rem;
     width: 70%;
   }
 
@@ -134,5 +147,12 @@
     .list-container li {
       font-size: 18px;
     }
+
+    ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
   }
 </style>

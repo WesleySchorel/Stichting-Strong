@@ -4,7 +4,7 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
-type ConferentieDocumentDataSlicesSlice = ImagesSlice;
+type ConferentieDocumentDataSlicesSlice = never;
 
 /**
  * Content for conferentie documents
@@ -53,6 +53,83 @@ interface ConferentieDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   description: prismic.KeyTextField;
+
+  /**
+   * grid2 field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.grid2
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid2: prismic.ImageField<never>;
+
+  /**
+   * grid3 field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.grid3
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid3: prismic.ImageField<never>;
+
+  /**
+   * grid4 field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.grid4
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid4: prismic.ImageField<never>;
+
+  /**
+   * grid5 field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.grid5
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid5: prismic.ImageField<never>;
+
+  /**
+   * grid6 field in *conferentie*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.grid6
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid6: prismic.ImageField<never>;
+
+  /**
+   * text1 field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.text1
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text1: prismic.KeyTextField;
+
+  /**
+   * text2 field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.text2
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text2: prismic.KeyTextField;
 
   /**
    * Slice Zone field in *conferentie*
@@ -234,10 +311,153 @@ interface NieuwsDocumentData {
 export type NieuwsDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<NieuwsDocumentData>, "nieuws", Lang>;
 
+/**
+ * Content for workshop documents
+ */
+interface WorkshopDocumentData {
+  /**
+   * image field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.image
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * date field in *workshop*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  date: prismic.DateField;
+
+  /**
+   * title field in *workshop*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * description field in *workshop*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  description: prismic.KeyTextField;
+
+  /**
+   * grid2 field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.grid2
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid2: prismic.ImageField<never>;
+
+  /**
+   * grid3 field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.grid3
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid3: prismic.ImageField<never>;
+
+  /**
+   * grid4 field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.grid4
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid4: prismic.ImageField<never>;
+
+  /**
+   * grid5 field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.grid5
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid5: prismic.ImageField<never>;
+
+  /**
+   * grid6 field in *workshop*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.grid6
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  grid6: prismic.ImageField<never>;
+
+  /**
+   * text1 field in *workshop*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.text1
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text1: prismic.KeyTextField;
+
+  /**
+   * text2 field in *workshop*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: workshop.text2
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text2: prismic.KeyTextField;
+}
+
+/**
+ * workshop document from Prismic
+ *
+ * - **API ID**: `workshop`
+ * - **Repeatable**: `true`
+ * - **Documentation**: https://prismic.io/docs/custom-types
+ *
+ * @typeParam Lang - Language API ID of the document.
+ */
+export type WorkshopDocument<Lang extends string = string> =
+  prismic.PrismicDocumentWithUID<
+    Simplify<WorkshopDocumentData>,
+    "workshop",
+    Lang
+  >;
+
 export type AllDocumentTypes =
   | ConferentieDocument
   | HomepageDocument
-  | NieuwsDocument;
+  | NieuwsDocument
+  | WorkshopDocument;
 
 /**
  * Primary content in *Banner → Primary*
@@ -365,48 +585,6 @@ export type HeroSectionSlice = prismic.SharedSlice<
   "hero_section",
   HeroSectionSliceVariation
 >;
-
-/**
- * Primary content in *Images → Items*
- */
-export interface ImagesSliceDefaultItem {
-  /**
-   * img field in *Images → Items*
-   *
-   * - **Field Type**: Image
-   * - **Placeholder**: *None*
-   * - **API ID Path**: images.items[].img
-   * - **Documentation**: https://prismic.io/docs/field#image
-   */
-  img: prismic.ImageField<never>;
-}
-
-/**
- * Default variation for Images Slice
- *
- * - **API ID**: `default`
- * - **Description**: Default
- * - **Documentation**: https://prismic.io/docs/slice
- */
-export type ImagesSliceDefault = prismic.SharedSliceVariation<
-  "default",
-  Record<string, never>,
-  Simplify<ImagesSliceDefaultItem>
->;
-
-/**
- * Slice variation for *Images*
- */
-type ImagesSliceVariation = ImagesSliceDefault;
-
-/**
- * Images Shared Slice
- *
- * - **API ID**: `images`
- * - **Description**: Images
- * - **Documentation**: https://prismic.io/docs/slice
- */
-export type ImagesSlice = prismic.SharedSlice<"images", ImagesSliceVariation>;
 
 /**
  * Primary content in *Links → Primary*
@@ -573,6 +751,8 @@ declare module "@prismicio/client" {
       HomepageDocumentDataSlicesSlice,
       NieuwsDocument,
       NieuwsDocumentData,
+      WorkshopDocument,
+      WorkshopDocumentData,
       AllDocumentTypes,
       BannerSlice,
       BannerSliceDefaultPrimary,
@@ -582,10 +762,6 @@ declare module "@prismicio/client" {
       HeroSectionSliceDefaultPrimary,
       HeroSectionSliceVariation,
       HeroSectionSliceDefault,
-      ImagesSlice,
-      ImagesSliceDefaultItem,
-      ImagesSliceVariation,
-      ImagesSliceDefault,
       LinksSlice,
       LinksSliceDefaultPrimary,
       LinksSliceDefaultItem,
