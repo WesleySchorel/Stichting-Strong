@@ -24,19 +24,11 @@
 
 <style>
   .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "text-container";
     margin: 0rem 8rem 8rem 8rem;
     width: 76%;
   }
 
   .primary-text-container {
-    grid-area: text-container;
     width: 95%;
   }
 
@@ -52,7 +44,7 @@
     color: rgb(0, 130, 200);
   }
 
-  img{
+  img {
     width: auto;
     height: 22rem;
     margin: 2rem 0rem 0rem 0rem;
@@ -93,7 +85,31 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem 2rem 0rem 2rem;
+    }
+
+    .container {
+      margin: 0rem 0rem 0rem 2rem;
+      width: 76%;
+    }
+
+    .primary-text-container {
+      width: 95%;
+    }
+
+    h2 {
+      margin-top: 1rem;
+    }
+
+    span {
+      margin: 1rem 0rem 1rem 0rem;
+    }
+
+    img {
+      width: auto;
+      height: 14rem;
+      margin: 2rem 0rem 6rem 0rem;
+      border-radius: 5px;
     }
   }
 </style>

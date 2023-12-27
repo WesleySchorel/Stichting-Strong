@@ -64,7 +64,9 @@
     width: 100%;
     object-fit: cover;
     border-radius: 5px;
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.65) 100%), rgba(0,0,0,0) 0%;
+    mask-image:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%),
+      rgba(0, 0, 0, 0) 0%;
   }
 
   .date {
@@ -126,6 +128,17 @@
   @media screen and (max-width: 480px) {
     .conferenties-container {
       grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+    }
+
+    .secondary-bg {
+      background-color: var(--secondary-bg);
+      padding: 2rem;
+      /* border: 3px solid red; */
     }
 
     img {
@@ -144,7 +157,8 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
+      margin-bottom: 3rem;
     }
   }
 </style>

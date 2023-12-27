@@ -87,6 +87,16 @@
     }
 
     @media screen and (max-width: 480px) {
+        .text-container h2 {
+            margin-top: 1rem;
+            margin-bottom: -3rem;
+        }
+
+        .primary-text-container {
+            width: 95%;
+            margin-bottom: 4rem;
+        }
+
         div.grid {
             display: grid;
             grid-template-columns: 1fr;
@@ -98,7 +108,7 @@
         }
 
         .text-container {
-            margin: 1.5rem;
+            margin: 2rem;
         }
 
         .container {
@@ -108,7 +118,7 @@
 
         img {
             width: auto;
-            height: 6em;
+            height: 8rem;
             margin: 2rem 0rem 0rem 0rem;
             border-radius: 5px;
         }

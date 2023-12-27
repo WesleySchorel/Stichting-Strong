@@ -92,4 +92,47 @@
     align-items: left;
     margin: 10rem 8rem 4rem 8rem;
   }
+
+  @media screen and (max-width: 480px) {
+    .nieuws-container {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-template-columns: 1.6fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "categorieën"
+        "articles";
+      margin: 2rem;
+    }
+
+    div.grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas: "text";
+    }
+
+    .categorieën {
+      margin-top: -2rem;
+    }
+
+    .articles {
+      margin-top: -8rem;
+    }
+
+    .text-container {
+      margin: 2rem;
+    }
+
+    /* img {
+          width: auto;
+          height: 8rem;
+          margin: 2rem 0rem 0rem 0rem;
+          border-radius: 5px;
+      } */
+  }
 </style>

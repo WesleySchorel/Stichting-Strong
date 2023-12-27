@@ -63,7 +63,8 @@
   <div class="primary-text-container">
     <h2>MEER OVER {data.conferentie.data.title}</h2>
     <p>
-      <span>Meer over de estafettemars van {data.conferentie.data.date}:</span><br />
+      <span>Meer over de estafettemars van {data.conferentie.data.date}:</span
+      ><br />
       {data.conferentie.data.text2}
     </p>
   </div>
@@ -155,6 +156,20 @@
   }
 
   @media screen and (max-width: 480px) {
+    .secondary-bg h2 {
+      margin-top: 2rem;
+    }
+
+    .text-container h2 {
+      margin-top: 1rem;
+      margin-bottom: -3rem;
+    }
+
+    .primary-text-container {
+      width: 95%;
+      margin-bottom: 4rem;
+    }
+
     div.grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -166,7 +181,7 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
     }
 
     .container {
@@ -179,6 +194,7 @@
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       gap: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .secondary-bg {

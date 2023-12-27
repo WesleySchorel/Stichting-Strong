@@ -126,6 +126,17 @@
   @media screen and (max-width: 480px) {
     .workshops-container {
       grid-template-columns: repeat(1, 1fr);
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      margin-top: 2rem;
+    }
+
+    .secondary-bg {
+      background-color: var(--secondary-bg);
+      padding: 2rem;
+      /* border: 3px solid red; */
     }
 
     img {
@@ -144,7 +155,8 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
+      margin-bottom: 3rem;
     }
   }
 </style>

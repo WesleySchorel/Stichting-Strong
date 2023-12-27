@@ -64,6 +64,7 @@
       background-color: var(--banner-bg);
       padding: 2rem;
       margin: 2rem;
+      margin-bottom: 6rem;
       margin-top: 12rem;
       border-radius: 10px;
     }
@@ -86,7 +87,7 @@
       object-fit: cover;
       margin: 0;
       margin-top: 1rem;
-      border: 0rem;
+      border: 0;
       border-radius: 10px;
     }
   }

@@ -155,37 +155,52 @@
     }
   
     @media screen and (max-width: 480px) {
-      div.grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-auto-columns: 1fr;
-        gap: 0px 0px;
-        grid-auto-flow: row;
-        grid-template-areas: "text";
-      }
-  
-      .text-container {
-        margin: 1.5rem;
-      }
-  
-      .container {
-        margin: 2rem;
-        width: 85%;
-      }
-  
-      .workshops-container {
-        color: var(--c-pink);
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
-      }
-  
-      .secondary-bg {
-        background-color: var(--secondary-bg);
-        padding: 2rem;
-        /* border: 3px solid red; */
-      }
+      .secondary-bg h2 {
+      margin-top: 2rem;
     }
+
+    .text-container h2 {
+      margin-top: 1rem;
+      margin-bottom: -3rem;
+    }
+
+    .primary-text-container {
+      width: 95%;
+      margin-bottom: 4rem;
+    }
+
+    div.grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-auto-columns: 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas: "text";
+    }
+
+    .text-container {
+      margin: 2rem;
+    }
+
+    .container {
+      margin: 2rem;
+      width: 85%;
+    }
+
+    .workshops-container {
+      color: var(--c-pink);
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .secondary-bg {
+      background-color: var(--secondary-bg);
+      padding: 2rem;
+      /* border: 3px solid red; */
+    }
+  }
   </style>
   
