@@ -2,12 +2,14 @@
 
 import Banner from "./Banner/index.svelte";
 import HeroSection from "./HeroSection/index.svelte";
+import Images from "./Images/index.svelte";
 import Links from "./Links/index.svelte";
 import Projects from "./Projects/index.svelte";
 
 export const components = {
   banner: Banner,
   hero_section: HeroSection,
+  images: Images,
   links: Links,
   projects: Projects,
 };

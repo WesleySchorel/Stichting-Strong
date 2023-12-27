@@ -54,10 +54,9 @@
         <span>Stichting Estafettemars voor de Rechten van het Kind (STERK)</span><br />
       </p>
       <ul>
-        <li>Kramatweg 14F,</li>
-        <li>1095JN Amsterdam</li>
+        <li>Kramatweg 14F, 1095JN Amsterdam</li>
         <li>Mobiel: 0626466912</li>
-        <li>Email: sjieka@planet.nl</li>
+        <li>Email: info@stichtingstrong.nl</li>
         <li>RSIN: 8185.60.216</li>
       </ul>
     </div>

@@ -8,11 +8,12 @@
   <article>
     <div class="projects-container">
       {#each slice.items as item}
-        <a href="/">
+        <a href="{item.project_link}">
           <div class="project">
             <img src={item.project_image.url} alt={item.project_title} />
             <h3>{item.project_title}</h3>
             <p>{item.project_text}</p>
+            <p><b>Lees meer →</b></p>
           </div>
         </a>
       {/each}
@@ -43,7 +44,7 @@
   }
 
   p {
-    padding: 0.1rem 0 1rem 1rem;
+    padding: 0.5rem 0 1rem 1rem;
   }
 
   a {
@@ -54,6 +55,7 @@
     height: 14rem;
     width: 100%;
     object-fit: cover;
+    border-radius: 10px 10px 0 0;
   }
 
   .projects-container {
@@ -68,6 +70,7 @@
     border-radius: 5px;
     background-color: white;
     transition: 0.2s;
+    border-radius: 0 0 10px 10px;
   }
 
   .project:hover {

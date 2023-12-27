@@ -10,9 +10,7 @@
     <Header />
     <h1><span>Over de stichting</span></h1>
     <p>
-      Supporting The Rights Of New Generations (STONG) levert sinds 2008 een
-      bijdrage aan de rechten van kinderen door samen met jongeren aandacht te
-      vragen voor dit onderwerp.
+      Vindt aanvullende informatie over de stichting. Supporting The Rights Of New Generations (STONG).
     </p>
   </section>
 </div>

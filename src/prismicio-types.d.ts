@@ -4,6 +4,8 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
+type ConferentieDocumentDataSlicesSlice = ImagesSlice;
+
 /**
  * Content for conferentie documents
  */
@@ -40,6 +42,28 @@ interface ConferentieDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#key-text
    */
   title: prismic.KeyTextField;
+
+  /**
+   * description field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.description
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  description: prismic.KeyTextField;
+
+  /**
+   * Slice Zone field in *conferentie*
+   *
+   * - **Field Type**: Slice Zone
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.slices[]
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#slices
+   */
+  slices: prismic.SliceZone<ConferentieDocumentDataSlicesSlice>;
 }
 
 /**
@@ -343,6 +367,48 @@ export type HeroSectionSlice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *Images → Items*
+ */
+export interface ImagesSliceDefaultItem {
+  /**
+   * img field in *Images → Items*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: images.items[].img
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  img: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for Images Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ImagesSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Record<string, never>,
+  Simplify<ImagesSliceDefaultItem>
+>;
+
+/**
+ * Slice variation for *Images*
+ */
+type ImagesSliceVariation = ImagesSliceDefault;
+
+/**
+ * Images Shared Slice
+ *
+ * - **API ID**: `images`
+ * - **Description**: Images
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ImagesSlice = prismic.SharedSlice<"images", ImagesSliceVariation>;
+
+/**
  * Primary content in *Links → Primary*
  */
 export interface LinksSliceDefaultPrimary {
@@ -419,6 +485,16 @@ export interface ProjectsSliceDefaultPrimary {
  */
 export interface ProjectsSliceDefaultItem {
   /**
+   * project_link field in *Projects → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: projects.items[].project_link
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  project_link: prismic.KeyTextField;
+
+  /**
    * project_image field in *Projects → Items*
    *
    * - **Field Type**: Image
@@ -491,6 +567,7 @@ declare module "@prismicio/client" {
     export type {
       ConferentieDocument,
       ConferentieDocumentData,
+      ConferentieDocumentDataSlicesSlice,
       HomepageDocument,
       HomepageDocumentData,
       HomepageDocumentDataSlicesSlice,
@@ -505,6 +582,10 @@ declare module "@prismicio/client" {
       HeroSectionSliceDefaultPrimary,
       HeroSectionSliceVariation,
       HeroSectionSliceDefault,
+      ImagesSlice,
+      ImagesSliceDefaultItem,
+      ImagesSliceVariation,
+      ImagesSliceDefault,
       LinksSlice,
       LinksSliceDefaultPrimary,
       LinksSliceDefaultItem,

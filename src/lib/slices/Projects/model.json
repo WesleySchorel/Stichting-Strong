@@ -21,6 +21,13 @@
         }
       },
       "items": {
+        "project_link": {
+          "type": "Text",
+          "config": {
+            "label": "project_link",
+            "placeholder": ""
+          }
+        },
         "project_image": {
           "type": "Image",
           "config": {

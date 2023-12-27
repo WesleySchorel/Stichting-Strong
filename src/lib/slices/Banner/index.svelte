@@ -5,26 +5,58 @@
 
 <div>
   <section>
-    <h2>{slice.primary.title}</h2>
-    <p>{slice.primary.text}</p>
-    <img src={slice.primary.image.url} alt={slice.primary.title} />
+    <div class="banner-container">
+      <div class="text">
+        <h2>{slice.primary.title}</h2>
+        <p>{slice.primary.text}</p>
+        <a href="/estafettemars">Recente conferenties →</a>
+      </div>
+      <div class="media">
+        <img src={slice.primary.image.url} alt={slice.primary.title} />
+      </div>
+    </div>
   </section>
 </div>
 
 <style>
-  div {
-    padding: 8rem;
-    /* border: 3px solid red; */
-  }
-
   section {
     background-color: var(--banner-bg);
     padding: 4rem;
+    margin: 8rem;
+    margin-top: 12rem;
     border-radius: 10px;
   }
 
+  .banner-container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas: "text media";
+  }
+
+  .text {
+    grid-area: text;
+  }
+
+  p {
+    margin: 1rem 0 1rem 0;
+  }
+
+  .media {
+    grid-area: media;
+  }
+
   img {
-    width: 10%;
+    width: 24rem;
+    height: 26rem;
+    object-fit: cover;
+    margin-top: -8rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    border: 0.5rem solid var(--img-border);
+    border-radius: 10px;
   }
 
   @media screen and (max-width: 480px) {

@@ -33,6 +33,24 @@
           "label": "title",
           "placeholder": ""
         }
+      },
+      "description": {
+        "type": "Text",
+        "config": {
+          "label": "description",
+          "placeholder": ""
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "images": {
+              "type": "SharedSlice"
+            }
+          }
+        }
       }
     }
   }

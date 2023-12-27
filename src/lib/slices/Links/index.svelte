@@ -1,58 +1,7 @@
 <script>
-  /** @type {import("@prismicio/client").Content.LinksSlice} */
-  export let slice;
+  /** @type {import("@prismicio/client").Content.IntroductionSlice} */
+  import Links from "$lib/components/links.svelte";
+  // export let slice;
 </script>
 
-<div>
-  <h2>{slice.primary.title}</h2>
-  <hr />
-  <ul>
-    {#each slice.items as item}
-      <li>
-         <a href={item.link.url} target="_blank">{item.link}</a>
-      </li>
-      {/each}
-  </ul>
-</div>
-
-<style>
-  h2 {
-    margin-bottom: 1rem;
-  }
-
-  div {
-    padding: 8rem;
-    /* border: 3px solid red; */
-  }
-
-  hr {
-    padding: 0.1rem;
-    background-color: var(--hr);
-    margin-bottom: 1rem;
-  }
-
-  ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.1rem;
-    column-gap: 2rem;
-  }
-
-  li {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow-x: hidden;
-    list-style-position: inside;
-    list-style-type: "◆ ";
-  }
-
-  @media screen and (max-width: 480px) {
-    div {
-      padding: 4rem 1.5rem 4rem 1.5rem;
-    }
-
-    ul {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-</style>
+<Links />
