@@ -60,12 +60,34 @@
   }
 
   @media screen and (max-width: 480px) {
-    div {
-      padding: 4rem 1.5rem 4rem 1.5rem;
+    section {
+      background-color: var(--banner-bg);
+      padding: 2rem;
+      margin: 2rem;
+      margin-top: 12rem;
+      border-radius: 10px;
     }
 
-    section {
-      padding: 1rem;
+    .banner-container {
+      display: grid;
+      grid-auto-columns: 1fr;
+      grid-template-columns: 1.6fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "text"
+        "media";
+
+    }
+
+    img {
+      width: 100%;
+      height: 18rem;
+      object-fit: cover;
+      margin: 0;
+      margin-top: 1rem;
+      border: 0rem;
+      border-radius: 10px;
     }
   }
 </style>

@@ -1,5 +1,6 @@
 <script>
   import Header from "$lib/components/header.svelte";
+  import kinderrechten_verdrag from "$lib/assets/universele-verklaring-van-de-rechten-van-het-kind.pdf";
 
   // export let data;
 </script>
@@ -8,33 +9,43 @@
   <section class="text-container">
     <Header />
     <h1>Over de stichting</h1>
-    <h2>Doellstelling en ANBI status</h2>
+    <h2>Rechten van het kind</h2>
   </section>
 </div>
 
 <div class="container">
   <div class="primary-text-container">
-    <p>text</p>
+    <p>
+      <span>De Stichting heeft ten doel:</span><br />
+      Het Verdrag inzake de rechten van het kind is gebaseerd op de Universele verklaring
+      van de rechten van de mens. Het wordt meestal het Kinderrechtenverdrag genoemd.
+      Het Kinderrechtenverdrag werd op 20 november 1989 aangenomen door de Verenigde
+      Naties. Daarom is 20 november benoemd tot internationale kinderrechtendag.
+    </p>
+    <p class="lees-meer">Lees het verdrag: <a href={kinderrechten_verdrag}>Universele verklaring van de rechten van het kind</a></p>
+    
   </div>
 </div>
 
 <style>
+  .lees-meer {
+    margin-top: 1rem;
+  }
+
   .container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-auto-columns: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas: "text-container";
     margin: 0rem 8rem 8rem 8rem;
-    width: 76%;
+    width: 70%;
   }
 
   .primary-text-container {
-    grid-area: text-container;
     width: 95%;
     margin-top: 1rem;
+  }
+
+  span {
+    color: rgb(0, 130, 200);
+    font-weight: 700;
+    margin-bottom: 2rem;
   }
 
   h2 {
@@ -78,6 +89,11 @@
 
     .text-container {
       margin: 1.5rem;
+    }
+
+    .container {
+      margin: 2rem;
+      width: 85%;
     }
   }
 </style>

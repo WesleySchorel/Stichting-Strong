@@ -81,24 +81,12 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
+      margin-bottom: -8rem;
     }
 
     .img-container {
-      margin: 0;
-      padding: 0;
-      grid-area: img;
-      display: flex;
-
-      border-bottom: 1.5rem solid var(--border);
-      clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
-      overflow: hidden;
-    }
-
-    img {
-      width: 145%;
-      height: auto;
-      margin-left: -20%;
+      display: none;
     }
   }
 </style>

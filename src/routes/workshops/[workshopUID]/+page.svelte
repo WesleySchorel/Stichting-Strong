@@ -7,7 +7,7 @@
   <div class="grid">
     <section class="text-container">
       <Header />
-      <h1>Estafettemars</h1>
+      <h1>Workshops</h1>
       <h2>{data.workshop.data.title}</h2>
     </section>
   </div>
