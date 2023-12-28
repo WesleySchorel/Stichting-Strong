@@ -1,13 +1,10 @@
 <script>
-  import Header from "$lib/components/header.svelte";
   import anbi from "$lib/assets/anbi-logo.svg";
-
   // export let data;
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1>Over de stichting</h1>
     <h2>Doellstelling en ANBI status</h2>
   </section>

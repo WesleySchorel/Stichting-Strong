@@ -63,7 +63,7 @@
     section {
       background-color: var(--banner-bg);
       padding: 2rem;
-      margin: 2rem;
+      margin: 1.5rem;
       margin-bottom: 6rem;
       margin-top: 12rem;
       border-radius: 10px;

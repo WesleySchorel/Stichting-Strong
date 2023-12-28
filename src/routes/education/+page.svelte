@@ -1,13 +1,9 @@
 <script>
-  import Header from "$lib/components/header.svelte";
-  import meldkaart from "$lib/assets/meldkaart.webp";
-
   // export let data;
 </script>
 
 <div class="grid">
   <section class="text-container">
-      <Header />
       <h1>Education</h1>
       <h2>Strong Education</h2>
   </section>

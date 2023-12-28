@@ -1,12 +1,9 @@
 <script>
-  import Header from "$lib/components/header.svelte";
-
   export let data;
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1>Nieuws</h1>
     <h2>{data.nieuws.data.title}</h2>
     <span

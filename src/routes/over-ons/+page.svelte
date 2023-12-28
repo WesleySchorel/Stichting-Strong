@@ -1,5 +1,4 @@
 <script>
-  import Header from "$lib/components/header.svelte";
   import Links from "$lib/components/links.svelte";
 
   // export let data;
@@ -7,7 +6,6 @@
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1><span>Over de stichting</span></h1>
     <p>
       Vindt aanvullende informatie over de stichting. Supporting The Rights Of New Generations (STONG).

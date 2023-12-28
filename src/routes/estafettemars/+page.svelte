@@ -1,12 +1,9 @@
 <script>
-  import Header from "$lib/components/header.svelte";
-
   export let data;
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1><span>Estafettemars</span></h1>
     <p>
       In ons scholenproject STRONG wordt jaarlijks voor en door studenten een
@@ -137,7 +134,7 @@
 
     .secondary-bg {
       background-color: var(--secondary-bg);
-      padding: 2rem;
+      padding: 1.5rem;
       /* border: 3px solid red; */
     }
 
@@ -157,7 +154,7 @@
     }
 
     .text-container {
-      margin: 2rem;
+      margin: 1.5rem;
       margin-bottom: 3rem;
     }
   }

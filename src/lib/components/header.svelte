@@ -1,8 +1,11 @@
 <script>
     import { page } from "$app/stores";
+    import hamburger from "$lib/assets/hamburger-menu.svg";
 </script>
 
-<label for="menu-toggle">open</label>
+<label for="menu-toggle">
+    <img src={ hamburger} alt="Navigation" />
+</label>
 <input type="checkbox" id="menu-toggle" />
 
 <nav>
@@ -139,6 +142,11 @@
         }
     }
 
+    img {
+        height: 3rem;
+        width: auto;
+    }
+
     @media screen and (max-width: 480px) {
         ul {
             display: block;
@@ -181,8 +189,6 @@
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            width: 4rem;
-            height: 4rem;
             border-radius: 5px;
             position: absolute;
             top: 2em;

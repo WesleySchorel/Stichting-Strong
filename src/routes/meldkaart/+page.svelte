@@ -1,13 +1,10 @@
 <script>
-    import Header from "$lib/components/header.svelte";
     import meldkaart from "$lib/assets/meldkaart.webp";
-
     // export let data;
 </script>
 
 <div class="grid">
     <section class="text-container">
-        <Header />
         <h1>Meldkaart</h1>
         <h2>De Meldkaart Rechten van het Kind</h2>
     </section>

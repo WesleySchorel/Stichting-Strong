@@ -1,5 +1,4 @@
 <script>
-  import Header from "$lib/components/header.svelte";
   import kinderrechten_verdrag from "$lib/assets/universele-verklaring-van-de-rechten-van-het-kind.pdf";
 
   // export let data;
@@ -7,7 +6,6 @@
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1>Over de stichting</h1>
     <h2>Rechten van het kind</h2>
   </section>

@@ -1,12 +1,9 @@
 <script>
-  import Header from "$lib/components/header.svelte";
-
   export let data;
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1><span>Workshops</span></h1>
     <p>
       STRONG biedt diverse workshops over kinderrechten. Deze workshops worden

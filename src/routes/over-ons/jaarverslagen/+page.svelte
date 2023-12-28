@@ -1,5 +1,4 @@
 <script>
-  import Header from "$lib/components/header.svelte";
   import jaarverslag_2022 from "$lib/jaarverslagen/jaarverslag_2022.pdf";
   import jaarverslag_2019 from "$lib/jaarverslagen/jaarverslag_2019.pdf";
   import jaarverslag_2018 from "$lib/jaarverslagen/jaarverslag_2018.pdf";
@@ -10,7 +9,6 @@
 
 <div class="grid">
   <section class="text-container">
-    <Header />
     <h1>Over de stichting</h1>
     <h2>Jaarverslagen</h2>
   </section>
