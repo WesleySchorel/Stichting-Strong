@@ -47,6 +47,7 @@
   .text {
     grid-area: text;
     padding-left: 1.5rem;
+    width: 90%;
   }
 
   @media screen and (max-width: 961px) {
