@@ -1,5 +1,6 @@
 <script>
     import { page } from "$app/stores";
+    import logo from "$lib/assets/logo.png";
 </script>
 
 <section>
@@ -10,6 +11,42 @@
     >
 </section>
 
+<footer>
+    <div>
+        <img src={logo} alt="Logo stichting strong" />
+    </div>
+    <div>
+        <p><b>Snelle navigatie</b></p>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/estafettemars">Estafettemars</a></li>
+            <li><a href="/workshops">Workshops</a></li>
+            <li><a href="/meldkaart">Meldkaart</a></li>
+            <li><a href="/education">Education</a></li>
+            <li><a href="/Nieuws">Nieuws</a></li>
+            <li><a href="/Nieuws">Over de stichting</a></li>
+        </ul>
+    </div>
+    <div>
+        <p><b>Volg onze socials</b></p>
+        <ul>
+            <li><a href="https://www.instagram.com/stichting_strong/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/STERK.kind" target="_blank">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@stichtingstrong" target="_blank">Youtube</a></li>
+        </ul>
+    </div>
+    <div>
+        <p><b>Contactgegevens</b></p>
+        <ul>
+            <li>Kramatweg 14F, 1095JN Amsterdam</li>
+            <li>Mobiel: 0626466912</li>
+            <li>Email: info@stichtingstrong.nl</li>
+            <li>RSIN: 8185.60.216</li>
+        </ul>
+        <span>&#169; 2008 - {new Date().getFullYear()} Stichting STRONG</span>
+    </div>
+</footer>
+
 <style>
     section {
         background-color: var(--footer-bg);
@@ -19,7 +56,7 @@
         /* border: 3px solid var(--c-error); */
     }
 
-    a {
+    .button {
         display: inline-block;
         color: var(--c-button-text);
         background-color: white;
@@ -32,7 +69,7 @@
         transition: 0.2s;
     }
 
-    a:hover {
+    .button:hover {
         transform: translateY(-3px);
         opacity: 0.65;
         transition: 0.2s;
@@ -40,5 +77,61 @@
 
     p {
         margin: 1rem;
+    }
+
+    footer {
+        padding: 2rem;
+        background-color: var(--border);
+        opacity: 0.8;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+    }
+
+    li {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow-x: hidden;
+        list-style-position: inside;
+        list-style: none;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        font-size: 18px;
+    }
+
+    ul {
+        margin-bottom: 1rem;
+    }
+
+    span {
+        margin: 18px;
+    }
+
+    a {
+        color: var(--text);
+        font-size: 18px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    img {
+        width: 100%;
+      height: auto;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 961px) {
+        footer {
+        padding: 2rem;
+        background-color: var(--border);
+        opacity: 0.7;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
+    }
     }
 </style>

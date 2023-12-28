@@ -8,6 +8,4 @@
 <slot />
 <Footer />
 
-<!-- <footer>
-    &#169; 2008 - {new Date().getFullYear()} Stichting STRONG &#183; All Rights Reserved
-</footer> -->
+
