@@ -30,9 +30,15 @@
     <div>
         <p><b>Volg onze socials</b></p>
         <ul>
-            <li><a href="https://www.instagram.com/stichting_strong/">Instagram</a></li>
+            <li>
+                <a href="https://www.instagram.com/stichting_strong/"
+                    >Instagram</a
+                >
+            </li>
             <li><a href="https://www.facebook.com/STERK.kind">Facebook</a></li>
-            <li><a href="https://www.youtube.com/@stichtingstrong">Youtube</a></li>
+            <li>
+                <a href="https://www.youtube.com/@stichtingstrong">Youtube</a>
+            </li>
         </ul>
     </div>
     <div>
@@ -118,20 +124,33 @@
 
     img {
         width: 100%;
-      height: auto;
-      border-radius: 5px;
-      display: flex;
-      justify-content: center;
+        height: auto;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
     }
 
     @media screen and (max-width: 961px) {
         footer {
-        padding: 2rem;
-        background-color: var(--border);
-        opacity: 0.7;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1.5rem;
+            padding: 2rem;
+            background-color: var(--border);
+            opacity: 0.7;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 1.5rem;
+        }
+
+        img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        margin-right: 2rem;
+    }
+
+    li {
+        width: 90%;
     }
     }
 </style>
