@@ -145,6 +145,7 @@
             display: flex;
             justify-content: center;
             padding: 2rem;
+            padding-bottom: 0;
         }
 
         li {
