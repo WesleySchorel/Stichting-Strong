@@ -1,6 +1,9 @@
 <script>
-import { page } from "$app/stores";
+    import { page } from "$app/stores";
 </script>
+
+<label for="menu-toggle">open</label>
+<input type="checkbox" id="menu-toggle" />
 
 <nav>
     <ul>
@@ -8,18 +11,62 @@ import { page } from "$app/stores";
         <li class="dropdown">
             <p>Projecten</p>
             <ul class="dropdown-menu">
-                <li><a href="/estafettemars" class:active={$page.url.pathname === "/estafettemars"}>Estafettemars</a></li>
-                <li><a href="/workshops" class:active={$page.url.pathname === "/workshops"}>Workshops</a></li>
-                <li><a href="/meldkaart" class:active={$page.url.pathname === "/meldkaart"}>Meldkaart</a></li>
+                <li>
+                    <a
+                        href="/estafettemars"
+                        class:active={$page.url.pathname === "/estafettemars"}
+                        >Estafettemars</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/workshops"
+                        class:active={$page.url.pathname === "/workshops"}
+                        >Workshops</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="/meldkaart"
+                        class:active={$page.url.pathname === "/meldkaart"}
+                        >Meldkaart</a
+                    >
+                </li>
             </ul>
         </li>
-        <li><a href="/education" class:active={$page.url.pathname === "/education"}>Education</a></li>
-        <li><a href="/nieuws" class:active={$page.url.pathname === "/nieuws"}>Nieuws</a></li>
-        <li><a href="/over-ons" class:active={$page.url.pathname === "/over-ons"}>Over de stichting</a></li>
+        <li>
+            <a
+                href="/education"
+                class:active={$page.url.pathname === "/education"}>Education</a
+            >
+        </li>
+        <li>
+            <a href="/nieuws" class:active={$page.url.pathname === "/nieuws"}
+                >Nieuws</a
+            >
+        </li>
+        <li>
+            <a
+                href="/over-ons"
+                class:active={$page.url.pathname === "/over-ons"}
+                >Over de stichting</a
+            >
+        </li>
     </ul>
 </nav>
 
 <style>
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        width: 76%;
+        margin: 8rem;
+        margin-top: 0rem;
+        position: absolute;
+    }
+
     ul {
         display: flex;
         position: absolute;
@@ -69,11 +116,16 @@ import { page } from "$app/stores";
     }
 
     .dropdown-menu li {
-        margin: 5px 0 5px 0; 
+        margin: 5px 0 5px 0;
     }
 
     .dropdown:hover .dropdown-menu {
         display: block;
+    }
+
+    label,
+    input {
+        display: none;
     }
 
     @keyframes slideIn {
@@ -88,8 +140,62 @@ import { page } from "$app/stores";
     }
 
     @media screen and (max-width: 480px) {
+        ul {
+            display: block;
+            margin-top: 4rem;
+        }
+
+        li {
+            display: block;
+            padding-right: 0;
+        }
+
         nav {
             display: none;
+            background-color: #eee;
+            padding: 2rem;
+            height: 20rem;
+            width: 100%;
+            margin: 0;
+        }
+
+        p {
+            display: none;
+        }
+
+        .dropdown-menu {
+            display: block;
+            position: static;
+            background-color: rgba(249, 249, 249, 0);
+            box-shadow: none;
+            z-index: 0;
+            padding: 0;
+            margin-top: 0;
+            animation: none;
+        }
+
+        label {
+            background-color: #99bee9;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            width: 4rem;
+            height: 4rem;
+            border-radius: 5px;
+            position: absolute;
+            top: 2em;
+            right: 2rem;
+            z-index: 1;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked + nav {
+            display: block;
         }
     }
 </style>

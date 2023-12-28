@@ -1,12 +1,11 @@
 <script>
   /** @type {import("@prismicio/client").Content.IntroductionSlice} */
-  import Header from "$lib/components/header.svelte";
   export let slice;
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <Header />
+
     <h1><span>{slice.primary.title}</span></h1>
     <p>{slice.primary.text}</p>
     <a href="/over-ons">Over de stichting →</a>
