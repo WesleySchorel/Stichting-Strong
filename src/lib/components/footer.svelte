@@ -24,7 +24,7 @@
             <li><a href="/meldkaart">Meldkaart</a></li>
             <li><a href="/education">Education</a></li>
             <li><a href="/nieuws">Nieuws</a></li>
-            <li><a href="/over-de-stichting">Over de stichting</a></li>
+            <li><a href="/over-ons">Over de stichting</a></li>
         </ul>
     </div>
     <div>
