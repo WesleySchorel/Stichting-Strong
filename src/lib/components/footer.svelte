@@ -95,9 +95,7 @@
     }
 
     li {
-        text-overflow: ellipsis;
         white-space: nowrap;
-        overflow-x: hidden;
         list-style-position: inside;
         list-style: none;
         margin-left: 1rem;
@@ -141,16 +139,16 @@
         }
 
         img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        margin-right: 2rem;
-    }
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+        }
 
-    li {
-        width: 90%;
-    }
+        li {
+            width: 90%;
+        }
     }
 </style>
