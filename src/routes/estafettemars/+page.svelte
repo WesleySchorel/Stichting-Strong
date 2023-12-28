@@ -134,7 +134,7 @@
 
     .secondary-bg {
       background-color: var(--secondary-bg);
-      padding: 1.5rem;
+      padding: 2rem;
       /* border: 3px solid red; */
     }
 
@@ -154,7 +154,7 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
       margin-bottom: 3rem;
     }
   }

@@ -80,7 +80,7 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem;
       margin-bottom: -8rem;
     }
 
