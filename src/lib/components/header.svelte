@@ -1,14 +1,35 @@
 <script>
     import { page } from "$app/stores";
     import hamburger from "$lib/assets/hamburger-menu.svg";
+    import cross from "$lib/assets/cross.svg";
 
     function uncheckCheckbox() {
         document.getElementById("menu-toggle").checked = false;
     }
+
+    import { onMount } from 'svelte';
+
+    let hamburgerImage;
+    let crossImage;
+
+    onMount(() => {
+        hamburgerImage = document.getElementById('hamburger-image');
+        crossImage = document.getElementById('cross-image');
+    });
+
+    function toggleImages() {
+        hamburgerImage.classList.toggle('hidden');
+        crossImage.classList.toggle('hidden');
+    }
+
+    function handleLinkClick() {
+        // Your logic for handling link click goes here
+    }
 </script>
 
-<label for="menu-toggle">
-    <img src={hamburger} alt="Navigation" />
+<label for="menu-toggle" on:click={toggleImages}>
+    <img id="hamburger-image" src={hamburger} alt="Open menu" />
+    <img id="cross-image" src={cross} alt="Close menu" class="hidden" />
 </label>
 <input type="checkbox" id="menu-toggle" />
 
@@ -241,5 +262,9 @@
                 transform: translateY(0);
             }
         }
+
+        .hidden {
+        display: none;
+    }
     }
 </style>
