@@ -30,9 +30,9 @@
     <div>
         <p><b>Volg onze socials</b></p>
         <ul>
-            <li><a href="https://www.instagram.com/stichting_strong/" target="_blank">Instagram</a></li>
-            <li><a href="https://www.facebook.com/STERK.kind" target="_blank">Facebook</a></li>
-            <li><a href="https://www.youtube.com/@stichtingstrong" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/stichting_strong/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/STERK.kind">Facebook</a></li>
+            <li><a href="https://www.youtube.com/@stichtingstrong">Youtube</a></li>
         </ul>
     </div>
     <div>
