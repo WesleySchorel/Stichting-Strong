@@ -44,7 +44,9 @@
     <div>
         <p><b>Contactgegevens</b></p>
         <ul>
-            <li>Kramatweg 14F, 1095JN Amsterdam</li>
+            <li>Kramatweg 14F</li>
+            <li>1095JN Amsterdam</li>
+            <br>
             <li>Mobiel: 0626466912</li>
             <li>Email: info@stichtingstrong.nl</li>
             <li>RSIN: 8185.60.216</li>
