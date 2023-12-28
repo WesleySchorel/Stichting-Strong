@@ -3,7 +3,7 @@
 </script>
   
   <div>
-    <h2>Belangerijke links</h2>
+    <h2>Belangrijke links</h2>
     <hr />
     <ul>
         <li><a href="https://www.annefrank.org">www.annefrank.org</a></li>

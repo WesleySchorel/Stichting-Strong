@@ -14,7 +14,7 @@
 </div>
 
 <section class="stichting-info-container">
-  <h2>Belangerijke documenten</h2>
+  <h2>Belangrijke documenten</h2>
   <article>
     <div class="documents-container">
       <a href="/over-ons/rechten-van-het-kind">
