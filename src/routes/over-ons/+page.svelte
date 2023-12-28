@@ -165,6 +165,7 @@
     .text-container {
       margin: 2rem;
       margin-bottom: 3rem;
+      width: 80%;
     }
     
     .documents-container {
