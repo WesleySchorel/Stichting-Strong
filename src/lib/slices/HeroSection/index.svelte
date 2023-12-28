@@ -1,5 +1,6 @@
 <script>
   /** @type {import("@prismicio/client").Content.IntroductionSlice} */
+  import video from "$lib/assets/hero-video.mp4";
   export let slice;
 </script>
 
@@ -12,7 +13,9 @@
   </section>
 
   <div class="img-container">
-    <img src={slice.primary.image.url} alt="Strong kinderrechtenconferentie" />
+    <video playsinline autoplay muted loop>
+      <source src={ video } type="video/mp4">
+  </video>
   </div>
 </div>
 
@@ -52,7 +55,7 @@
     margin: -1.5rem -1.5rem 0 0;
   }
 
-  img {
+  video {
     width: 100%;
     height: auto;
     /* margin-left: -20%; */
