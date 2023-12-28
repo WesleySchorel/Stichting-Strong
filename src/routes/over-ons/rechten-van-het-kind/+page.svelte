@@ -102,5 +102,9 @@
       margin: 0 2rem 1rem 2rem;
       width: 85%;
     }
+
+    .lees-meer {
+      margin-bottom: 6rem;
+    }
   }
 </style>

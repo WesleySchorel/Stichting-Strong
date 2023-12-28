@@ -177,7 +177,7 @@
       grid-template-columns: repeat(1, 1fr);
       gap: 1.5rem;
       margin-top: 1rem;
-      margin-right: 1rem;
+      margin-right: 0.5rem;
     }
   }
 </style>

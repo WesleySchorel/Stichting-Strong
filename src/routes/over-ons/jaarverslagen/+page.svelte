@@ -116,6 +116,7 @@
 
     .list-container ul {
       margin-top: -2rem;
+      margin-bottom: 6rem;
     }
   }
 </style>

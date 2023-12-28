@@ -1,16 +1,26 @@
 <script>
     import { page } from "$app/stores";
     import hamburger from "$lib/assets/hamburger-menu.svg";
+
+    function uncheckCheckbox() {
+        document.getElementById("menu-toggle").checked = false;
+    }
 </script>
 
 <label for="menu-toggle">
-    <img src={ hamburger} alt="Navigation" />
+    <img src={hamburger} alt="Navigation" />
 </label>
 <input type="checkbox" id="menu-toggle" />
 
 <nav>
     <ul>
-        <li><a href="/" class:active={$page.url.pathname === "/"}>Home</a></li>
+        <li>
+            <a
+                href="/"
+                class:active={$page.url.pathname === "/"}
+                on:click={uncheckCheckbox}>Home</a
+            >
+        </li>
         <li class="dropdown">
             <p>Projecten</p>
             <ul class="dropdown-menu">
@@ -18,21 +28,21 @@
                     <a
                         href="/estafettemars"
                         class:active={$page.url.pathname === "/estafettemars"}
-                        >Estafettemars</a
+                        on:click={uncheckCheckbox}>Estafettemars</a
                     >
                 </li>
                 <li>
                     <a
                         href="/workshops"
                         class:active={$page.url.pathname === "/workshops"}
-                        >Workshops</a
+                        on:click={uncheckCheckbox}>Workshops</a
                     >
                 </li>
                 <li>
                     <a
                         href="/meldkaart"
                         class:active={$page.url.pathname === "/meldkaart"}
-                        >Meldkaart</a
+                        on:click={uncheckCheckbox}>Meldkaart</a
                     >
                 </li>
             </ul>
@@ -40,19 +50,22 @@
         <li>
             <a
                 href="/education"
-                class:active={$page.url.pathname === "/education"}>Education</a
+                class:active={$page.url.pathname === "/education"}
+                on:click={uncheckCheckbox}>Education</a
             >
         </li>
         <li>
-            <a href="/nieuws" class:active={$page.url.pathname === "/nieuws"}
-                >Nieuws</a
+            <a
+                href="/nieuws"
+                class:active={$page.url.pathname === "/nieuws"}
+                on:click={uncheckCheckbox}>Nieuws</a
             >
         </li>
         <li>
             <a
                 href="/over-ons"
                 class:active={$page.url.pathname === "/over-ons"}
-                >Over de stichting</a
+                on:click={uncheckCheckbox}>Over de stichting</a
             >
         </li>
     </ul>
@@ -163,9 +176,10 @@
             display: none;
             background-color: #eee;
             padding: 2rem;
-            height: 100%;
+            height: 22rem;
             width: 100%;
             margin: 0;
+            animation: slideOut 0.3s ease-out;
         }
 
         p {
@@ -203,6 +217,29 @@
 
         input[type="checkbox"]:checked + nav {
             display: block;
+            animation: slideIn 0.3s ease-out;
+        }
+
+        @keyframes slideOut {
+            from {
+                opacity: 1;
+                transform: translateY(0);
+            }
+            to {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     }
 </style>

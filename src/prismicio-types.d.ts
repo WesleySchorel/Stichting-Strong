@@ -160,6 +160,7 @@ export type ConferentieDocument<Lang extends string = string> =
   >;
 
 type HomepageDocumentDataSlicesSlice =
+  | ArticleSlice
   | ProjectsSlice
   | BannerSlice
   | HeroSectionSlice;
@@ -459,6 +460,71 @@ export type AllDocumentTypes =
   | WorkshopDocument;
 
 /**
+ * Primary content in *Article → Primary*
+ */
+export interface ArticleSliceDefaultPrimary {
+  /**
+   * title field in *Article → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article.primary.title
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  title: prismic.KeyTextField;
+
+  /**
+   * text field in *Article → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article.primary.text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  text: prismic.KeyTextField;
+
+  /**
+   * img field in *Article → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: article.primary.img
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  img: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for Article Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ArticleSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<ArticleSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *Article*
+ */
+type ArticleSliceVariation = ArticleSliceDefault;
+
+/**
+ * Article Shared Slice
+ *
+ * - **API ID**: `article`
+ * - **Description**: Article
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ArticleSlice = prismic.SharedSlice<
+  "article",
+  ArticleSliceVariation
+>;
+
+/**
  * Primary content in *Banner → Primary*
  */
 export interface BannerSliceDefaultPrimary {
@@ -696,6 +762,10 @@ declare module "@prismicio/client" {
       WorkshopDocument,
       WorkshopDocumentData,
       AllDocumentTypes,
+      ArticleSlice,
+      ArticleSliceDefaultPrimary,
+      ArticleSliceVariation,
+      ArticleSliceDefault,
       BannerSlice,
       BannerSliceDefaultPrimary,
       BannerSliceVariation,
