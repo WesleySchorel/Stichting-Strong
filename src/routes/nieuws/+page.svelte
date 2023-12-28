@@ -90,7 +90,7 @@
     margin: 10rem 8rem 4rem 8rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     .nieuws-container {
       display: grid;
       grid-auto-columns: 1fr;

@@ -125,7 +125,7 @@
     margin-top: 10rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     div.grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -137,11 +137,20 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem 2rem 0rem 2rem;
+      width: 70%;
+    }
+
+    h2 {
+      margin-top: 1rem;
+    }
+
+    span {
+      margin: 1rem 0rem 1rem 0rem;
     }
 
     .container {
-      margin: 2rem;
+      margin: 0 2rem 1rem 2rem;
       width: 85%;
     }
 

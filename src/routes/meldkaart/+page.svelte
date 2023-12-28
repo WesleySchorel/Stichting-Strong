@@ -83,7 +83,7 @@
         margin-top: 10rem;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 961px) {
         .text-container h2 {
             margin-top: 1rem;
             margin-bottom: -3rem;

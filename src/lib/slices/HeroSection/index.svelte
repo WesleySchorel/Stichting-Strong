@@ -68,7 +68,7 @@
     margin-top: 1rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     div.grid {
       display: grid;
       grid-template-columns: 1fr;

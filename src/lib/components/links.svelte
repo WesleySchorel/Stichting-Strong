@@ -48,7 +48,7 @@
       list-style-type: "◆ ";
     }
   
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 961px) {
       div {
         padding: 4rem 1.5rem 4rem 1.5rem;
       }

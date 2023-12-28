@@ -59,7 +59,7 @@
     border-radius: 10px;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     section {
       background-color: var(--banner-bg);
       padding: 2rem;

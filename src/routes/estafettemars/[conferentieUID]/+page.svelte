@@ -152,7 +152,7 @@
     margin-top: 10rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     .secondary-bg h2 {
       margin-top: 2rem;
     }

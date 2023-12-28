@@ -147,7 +147,7 @@
         width: auto;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 961px) {
         ul {
             display: block;
             margin-top: 4rem;
@@ -156,13 +156,14 @@
         li {
             display: block;
             padding-right: 0;
+            padding-top: 0.3rem;
         }
 
         nav {
             display: none;
             background-color: #eee;
             padding: 2rem;
-            height: 20rem;
+            height: 100%;
             width: 100%;
             margin: 0;
         }

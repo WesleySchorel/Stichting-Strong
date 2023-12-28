@@ -151,7 +151,7 @@
     margin-top: 1rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     div.grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -163,11 +163,8 @@
     }
 
     .text-container {
-      margin: 1.5rem;
-    }
-
-    div {
-      padding: 4rem 1.5rem 4rem 1.5rem;
+      margin: 2rem;
+      margin-bottom: 3rem;
     }
     
     .documents-container {

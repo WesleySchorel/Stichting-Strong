@@ -30,35 +30,38 @@
     <li>
       <b>Sjieka van Rooijen</b>
       <p>Initiatiefnemer en voorzitter</p>
-      <br>
-      <p><a href = "mailto:sjiekavanrooijen@stichtingstrong.nl">Stuur een mail →</a></p>
+      <br />
+      <p>
+        <a href="mailto:sjiekavanrooijen@stichtingstrong.nl">Stuur een mail →</a
+        >
+      </p>
     </li>
     <li>
       <b>Hannah Freud</b>
       <p>Bestuurslid</p>
-      <br>
+      <br />
     </li>
     <li>
       <b>Leo Dijkman</b>
       <p>Bestuur ondersteuner/adviseur</p>
-      <br>
+      <br />
     </li>
     <li>
       <b>Pauline Hoogland</b>
       <p>Ontwikkelaar Strong Education</p>
-      <br>
-      <p><a href = "mailto:paulinehoogland@stichtingstrong.nl">Stuur een mail →</a></p>
+      <br />
+      <p>
+        <a href="mailto:paulinehoogland@stichtingstrong.nl">Stuur een mail →</a>
+      </p>
     </li>
     <li>
       <b>Wesley Schorel</b>
       <p>Frontend Developer</p>
-      <br>
-      <p><a href = "mailto:wesleyschorel@gmail.com">Stuur een mail →</a></p>
+      <br />
+      <p><a href="mailto:wesleyschorel@gmail.com">Stuur een mail →</a></p>
     </li>
   </ul>
 </div>
-
-
 
 <style>
   .list-container {
@@ -136,7 +139,7 @@
     margin-top: 10rem;
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 961px) {
     div.grid {
       display: grid;
       grid-template-columns: 1fr;
@@ -148,11 +151,20 @@
     }
 
     .text-container {
-      margin: 1.5rem;
+      margin: 2rem 2rem 0rem 2rem;
+      width: 70%;
+    }
+
+    h2 {
+      margin-top: 1rem;
+    }
+
+    span {
+      margin: 1rem 0rem 1rem 0rem;
     }
 
     .container {
-      margin: 2rem;
+      margin: 0 2rem 1rem 2rem;
       width: 85%;
     }
 
@@ -161,10 +173,10 @@
     }
 
     ul {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-    margin-top: 1rem;
-  }
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
   }
 </style>
