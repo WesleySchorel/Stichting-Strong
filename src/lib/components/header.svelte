@@ -2,28 +2,36 @@
     import { page } from "$app/stores";
     import hamburger from "$lib/assets/hamburger-menu.svg";
     import cross from "$lib/assets/cross.svg";
-
-    function uncheckCheckbox() {
-        document.getElementById("menu-toggle").checked = false;
-    }
-
-    import { onMount } from 'svelte';
+    import { onMount } from "svelte";
 
     let hamburgerImage;
     let crossImage;
 
     onMount(() => {
-        hamburgerImage = document.getElementById('hamburger-image');
-        crossImage = document.getElementById('cross-image');
+        hamburgerImage = document.getElementById("hamburger-image");
+        crossImage = document.getElementById("cross-image");
     });
 
     function toggleImages() {
-        hamburgerImage.classList.toggle('hidden');
-        crossImage.classList.toggle('hidden');
+        hamburgerImage.classList.toggle("hidden");
+        crossImage.classList.toggle("hidden");
+    }
+
+    function uncheckCheckbox() {
+        document.getElementById("menu-toggle").checked = false;
     }
 
     function handleLinkClick() {
+        // Reset to the initial image when a link is clicked
+        hamburgerImage.classList.remove("hidden");
+        crossImage.classList.add("hidden");
+
         // Your logic for handling link click goes here
+    }
+
+    function handleLinkClickWithCheckbox() {
+        handleLinkClick();
+        uncheckCheckbox();
     }
 </script>
 
@@ -36,11 +44,7 @@
 <nav>
     <ul>
         <li>
-            <a
-                href="/"
-                class:active={$page.url.pathname === "/"}
-                on:click={uncheckCheckbox}>Home</a
-            >
+            <a href="/" class:active={$page.url.pathname === "/"} on:click={handleLinkClickWithCheckbox}>Home</a>
         </li>
         <li class="dropdown">
             <p>Projecten</p>
@@ -49,21 +53,21 @@
                     <a
                         href="/estafettemars"
                         class:active={$page.url.pathname === "/estafettemars"}
-                        on:click={uncheckCheckbox}>Estafettemars</a
+                        on:click={handleLinkClickWithCheckbox}>Estafettemars</a
                     >
                 </li>
                 <li>
                     <a
                         href="/workshops"
                         class:active={$page.url.pathname === "/workshops"}
-                        on:click={uncheckCheckbox}>Workshops</a
+                        on:click={handleLinkClickWithCheckbox}>Workshops</a
                     >
                 </li>
                 <li>
                     <a
                         href="/meldkaart"
                         class:active={$page.url.pathname === "/meldkaart"}
-                        on:click={uncheckCheckbox}>Meldkaart</a
+                        on:click={handleLinkClickWithCheckbox}>Meldkaart</a
                     >
                 </li>
             </ul>
@@ -72,21 +76,21 @@
             <a
                 href="/education"
                 class:active={$page.url.pathname === "/education"}
-                on:click={uncheckCheckbox}>Education</a
+                on:click={handleLinkClickWithCheckbox}>Education</a
             >
         </li>
         <li>
             <a
                 href="/nieuws"
                 class:active={$page.url.pathname === "/nieuws"}
-                on:click={uncheckCheckbox}>Nieuws</a
+                on:click={handleLinkClickWithCheckbox}>Nieuws</a
             >
         </li>
         <li>
             <a
                 href="/over-ons"
                 class:active={$page.url.pathname === "/over-ons"}
-                on:click={uncheckCheckbox}>Over de stichting</a
+                on:click={handleLinkClickWithCheckbox}>Over de stichting</a
             >
         </li>
     </ul>
@@ -264,7 +268,7 @@
         }
 
         .hidden {
-        display: none;
-    }
+            display: none;
+        }
     }
 </style>
