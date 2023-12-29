@@ -199,7 +199,7 @@
 
         nav {
             display: none;
-            background-color: #eee;
+            background-color: #ffffff;
             padding: 2rem;
             height: 100%;
             width: 100%;
