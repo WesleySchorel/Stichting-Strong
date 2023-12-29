@@ -58,8 +58,8 @@
       </ul>
     </div>
 
-    <img src={anbi} alt="Logo Algemeen Nut Beogende Instelling (ANBI)" />
   </div>
+  <img src={anbi} alt="Logo Algemeen Nut Beogende Instelling (ANBI)" />
 </div>
 
 <style>

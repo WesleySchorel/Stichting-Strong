@@ -27,8 +27,9 @@
             rechten.
         </p>
 
-        <img src={meldkaart} alt="Strong Meldkaart" />
+
     </div>
+    <img src={meldkaart} alt="Strong Meldkaart" />
 </div>
 
 <style>
