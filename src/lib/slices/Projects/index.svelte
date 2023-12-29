@@ -24,7 +24,7 @@
 <style>
   section {
     background-color: var(--secondary-bg);
-    padding: 6rem 0 8rem 0;
+    padding: 6rem 0 6.5rem 0;
     /* border: 3px solid red; */
   }
 
