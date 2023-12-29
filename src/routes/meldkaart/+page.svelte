@@ -91,7 +91,7 @@
 
         .primary-text-container {
             width: 95%;
-            margin-bottom: 4rem;
+            margin-bottom: 0rem;
         }
 
         div.grid {
@@ -115,8 +115,8 @@
 
         img {
             width: auto;
-            height: 8rem;
-            margin: 2rem 0rem 0rem 0rem;
+            height: 12rem;
+            margin: 2rem 0rem 2rem 0rem;
             border-radius: 5px;
         }
     }

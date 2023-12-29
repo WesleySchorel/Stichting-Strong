@@ -161,8 +161,8 @@
 
     img {
       width: auto;
-      height: 6rem;
-      margin: 2rem 0rem 6rem 0rem;
+      height: 12rem;
+      margin: 2rem 0rem 2rem 0rem;
       border-radius: 5px;
     }
   }
