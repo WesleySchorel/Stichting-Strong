@@ -59,6 +59,7 @@
         height: 12em;
         margin: 2rem 0rem 0rem 0rem;
         border-radius: 5px;
+        box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
     }
 
     div.grid {

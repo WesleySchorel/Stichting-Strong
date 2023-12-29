@@ -25,6 +25,7 @@
     margin: 8rem;
     margin-top: 12rem;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
   }
 
   .banner-container {

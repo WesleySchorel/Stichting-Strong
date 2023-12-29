@@ -62,6 +62,7 @@
     mask-image:
       linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%),
       rgba(0, 0, 0, 0) 0%;
+      box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
   }
 
   .date {

@@ -102,6 +102,7 @@
     margin: 2rem 0rem 0rem 0rem;
     border-radius: 5px;
   }
+  
 
   div.grid {
     display: grid;

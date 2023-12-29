@@ -108,6 +108,7 @@
     border-radius: 5px;
     background-color: white;
     transition: 0.2s;
+    box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
   }
 
   .document:hover {
