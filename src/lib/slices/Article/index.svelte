@@ -65,7 +65,7 @@
       grid-template-areas:
         "text"
         "media";
-      margin-bottom: 0rem;
+      padding-bottom: 4rem;
     }
 
     img {
