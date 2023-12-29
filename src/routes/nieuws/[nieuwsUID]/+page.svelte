@@ -105,7 +105,7 @@
     img {
       width: auto;
       height: 12rem;
-      margin: 2rem 0rem 2rem 0rem;
+      margin: 2rem 0rem 3rem 0rem;
       border-radius: 5px;
     }
   }
