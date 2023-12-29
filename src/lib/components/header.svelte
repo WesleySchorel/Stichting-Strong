@@ -201,10 +201,13 @@
             display: none;
             background-color: #eee;
             padding: 2rem;
-            height: 22rem;
+            height: 100%;
             width: 100%;
             margin: 0;
             animation: slideOut 0.3s ease-out;
+            position: fixed;
+            top: 0;
+            right: 0;
         }
 
         p {
@@ -230,10 +233,10 @@
             align-items: center;
             cursor: pointer;
             border-radius: 5px;
-            position: absolute;
-            top: 2em;
-            right: 2rem;
             z-index: 1;
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
         }
 
         input[type="checkbox"] {
