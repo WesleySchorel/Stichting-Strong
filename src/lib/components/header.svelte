@@ -234,7 +234,7 @@
             align-items: center;
             cursor: pointer;
             border-radius: 5px;
-            z-index: 1;
+            z-index: 2;
             position: fixed;
             top: 2.1rem;
             right: 2.1rem;
