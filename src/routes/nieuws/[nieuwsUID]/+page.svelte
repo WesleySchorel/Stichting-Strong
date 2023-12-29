@@ -104,7 +104,7 @@
 
     img {
       width: auto;
-      height: 10rem;
+      height: 12rem;
       margin: 2rem 0rem 2rem 0rem;
       border-radius: 5px;
     }
