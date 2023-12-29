@@ -208,6 +208,7 @@
             position: fixed;
             top: 0;
             right: 0;
+            z-index: 1;
         }
 
         p {
@@ -219,7 +220,7 @@
             position: static;
             background-color: rgba(249, 249, 249, 0);
             box-shadow: none;
-            z-index: 0;
+            z-index: 1;
             padding: 0;
             margin-top: 0;
             animation: none;
@@ -235,8 +236,8 @@
             border-radius: 5px;
             z-index: 1;
             position: fixed;
-            top: 2rem;
-            right: 2rem;
+            top: 2.1rem;
+            right: 2.1rem;
         }
 
         input[type="checkbox"] {
