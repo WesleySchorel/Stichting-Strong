@@ -104,8 +104,8 @@
 
     img {
       width: auto;
-      height: 14rem;
-      margin: 2rem 0rem 6rem 0rem;
+      height: 10rem;
+      margin: 2rem 0rem 2rem 0rem;
       border-radius: 5px;
     }
   }
