@@ -65,8 +65,8 @@
       background-color: var(--banner-bg);
       padding: 2rem;
       margin: 2rem;
-      margin-bottom: 6rem;
-      margin-top: 12rem;
+      margin-bottom: 4rem;
+      margin-top: 10rem;
       border-radius: 10px;
     }
 

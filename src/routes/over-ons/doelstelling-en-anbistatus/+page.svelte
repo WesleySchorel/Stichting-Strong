@@ -6,7 +6,7 @@
 <div class="grid">
   <section class="text-container">
     <h1>Over de stichting</h1>
-    <h2>Doellstelling en ANBI status</h2>
+    <h2>Doelstelling en ANBI status</h2>
   </section>
 </div>
 
