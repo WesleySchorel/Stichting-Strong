@@ -46,12 +46,11 @@
         <ul>
             <li>Kramatweg 14F</li>
             <li>1095JN Amsterdam</li>
-            <br>
-            <li>Mobiel: 0626466912</li>
+            <li style="margin-top: 1.5rem;">Mobiel: 0626466912</li>
             <li>Email: info@stichtingstrong.nl</li>
             <li>RSIN: 8185.60.216</li>
+            <li style="margin-top: 1.5rem;">&#169; 2008 - {new Date().getFullYear()} Stichting STRONG</li>
         </ul>
-        <span>&#169; 2008 - {new Date().getFullYear()} Stichting STRONG</span>
     </div>
 </footer>
 
@@ -107,10 +106,6 @@
 
     ul {
         margin-bottom: 1rem;
-    }
-
-    span {
-        margin: 18px;
     }
 
     a {
