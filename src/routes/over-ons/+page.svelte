@@ -8,7 +8,7 @@
   <section class="text-container">
     <h1><span>Over de stichting</span></h1>
     <p>
-      Vindt aanvullende informatie over de stichting. Supporting The Rights Of New Generations (STONG).
+      Vindt aanvullende informatie over de stichting. Supporting The Rights Of New Generations (STRONG).
     </p>
   </section>
 </div>
