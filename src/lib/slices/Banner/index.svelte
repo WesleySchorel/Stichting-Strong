@@ -79,7 +79,6 @@
       grid-template-areas:
         "text"
         "media";
-
     }
 
     h2, p {
@@ -87,7 +86,7 @@
     }
 
     img {
-      width: 12rem;
+      width: 14rem;
       height: 18rem;
       object-fit: cover;
       margin: 0;
