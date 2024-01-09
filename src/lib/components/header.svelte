@@ -53,14 +53,14 @@
                     <a
                         href="/estafettemars"
                         class:active={$page.url.pathname === "/estafettemars"}
-                        on:click={handleLinkClickWithCheckbox}>Estafettemars</a
+                        on:click={handleLinkClickWithCheckbox}>Kinderrechtenmars</a
                     >
                 </li>
                 <li>
                     <a
                         href="/workshops"
                         class:active={$page.url.pathname === "/workshops"}
-                        on:click={handleLinkClickWithCheckbox}>Workshops</a
+                        on:click={handleLinkClickWithCheckbox}>Kinderrechten in Beeld</a
                     >
                 </li>
                 <li>

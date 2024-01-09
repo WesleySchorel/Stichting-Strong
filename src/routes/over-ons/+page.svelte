@@ -8,7 +8,7 @@
   <section class="text-container">
     <h1><span>Over de stichting</span></h1>
     <p>
-      Vindt aanvullende informatie over de stichting. Supporting The Rights Of New Generations (STRONG).
+      Vind aanvullende informatie over stichting STRONG.
     </p>
   </section>
 </div>
@@ -20,7 +20,7 @@
       <a href="/over-ons/rechten-van-het-kind">
         <div class="document">
           <h3>Rechten van het kind</h3>
-          <p>Het Verdrag inzake de rechten van het kind, feiten en acutele cijfers.</p>
+          <p>Het Verdrag inzake Rechten van het Kind, feiten en actuele cijfers.</p>
           <p><b>Lees meer →</b></p>
         </div>
       </a>

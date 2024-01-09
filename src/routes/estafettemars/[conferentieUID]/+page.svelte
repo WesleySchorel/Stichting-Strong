@@ -4,7 +4,7 @@
 
 <div class="grid">
   <section class="text-container">
-    <h1>Estafettemars</h1>
+    <h1>Kinderrechtenmars</h1>
     <h2>{data.conferentie.data.title}</h2>
   </section>
 </div>
@@ -12,7 +12,7 @@
 <div class="container">
   <div class="primary-text-container">
     <p>
-      <span>De estafettemars van {data.conferentie.data.date}:</span><br />
+      <span>De kinderechtenmars van {data.conferentie.data.date}:</span><br />
       {data.conferentie.data.text1}
     </p>
   </div>
@@ -56,7 +56,7 @@
   </article>
 </section>
 
-<div class="container">
+<!-- <div class="container">
   <div class="primary-text-container">
     <h2>MEER OVER {data.conferentie.data.title}</h2>
     <p>
@@ -65,7 +65,7 @@
       {data.conferentie.data.text2}
     </p>
   </div>
-</div>
+</div> -->
 
 <style>
   .secondary-bg {

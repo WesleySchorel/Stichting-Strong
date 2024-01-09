@@ -24,13 +24,13 @@ interface ConferentieDocumentData {
   /**
    * date field in *conferentie*
    *
-   * - **Field Type**: Date
+   * - **Field Type**: Text
    * - **Placeholder**: *None*
    * - **API ID Path**: conferentie.date
    * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#date
+   * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  date: prismic.DateField;
+  date: prismic.KeyTextField;
 
   /**
    * title field in *conferentie*
@@ -266,6 +266,17 @@ interface NieuwsDocumentData {
   text: prismic.KeyTextField;
 
   /**
+   * date field in *nieuws*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: nieuws.date
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  date: prismic.KeyTextField;
+
+  /**
    * image field in *nieuws*
    *
    * - **Field Type**: Image
@@ -275,17 +286,6 @@ interface NieuwsDocumentData {
    * - **Documentation**: https://prismic.io/docs/field#image
    */
   image: prismic.ImageField<never>;
-
-  /**
-   * date field in *nieuws*
-   *
-   * - **Field Type**: Date
-   * - **Placeholder**: *None*
-   * - **API ID Path**: nieuws.date
-   * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#date
-   */
-  date: prismic.DateField;
 
   /**
    * read_time field in *nieuws*
@@ -329,13 +329,13 @@ interface WorkshopDocumentData {
   /**
    * date field in *workshop*
    *
-   * - **Field Type**: Date
+   * - **Field Type**: Text
    * - **Placeholder**: *None*
    * - **API ID Path**: workshop.date
    * - **Tab**: Main
-   * - **Documentation**: https://prismic.io/docs/field#date
+   * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  date: prismic.DateField;
+  date: prismic.KeyTextField;
 
   /**
    * title field in *workshop*

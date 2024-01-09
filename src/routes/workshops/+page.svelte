@@ -4,7 +4,7 @@
 
 <div class="grid">
   <section class="text-container">
-    <h1><span>Workshops</span></h1>
+    <h1><span>Kinderrechten in Beeld</span></h1>
     <p>
       STRONG biedt diverse workshops over kinderrechten. Deze workshops worden
       verzorgd door Sjieka van Rooijen, initiatiefnemer van STRONG en beeldend
@@ -24,6 +24,8 @@
             <section class="date">
               <span>{workshop.data.date}</span>
               <h3>{workshop.data.title}</h3>
+              
+              <p><b>Lees meer →</b></p>
             </section>
           </div>
         </a>
@@ -67,8 +69,19 @@
 
   .date {
     position: absolute;
-    left: 1.5rem;
-    bottom: 1.5rem;
+    left: 0;
+    bottom: 0;
+    color: white
+  }
+
+  section .date {
+    background: linear-gradient(0deg, rgba(0,0,0,0.7142506660867471) 30%, rgba(0,0,0,0) 100%);
+    padding: 1.5rem;
+    padding-top: 5rem;
+    width: 100%;
+  }
+
+  .date p {
     color: white;
   }
 

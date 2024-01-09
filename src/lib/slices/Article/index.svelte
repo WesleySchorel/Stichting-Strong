@@ -26,7 +26,7 @@
 
   img {
     width: 38rem;
-    height: 26rem;
+    height: 24rem;
     object-fit: cover;
     border-radius: 10px;
   }

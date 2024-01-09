@@ -33,6 +33,13 @@
     <li><b>ROC Amsterdam</b></li>
     <li><b>Stichting Praat</b></li>
     <li><b>Vredesfonds</b></li>
+    <li><b>Childpress locatie Amsterdam</b></li>
+    <li><b>Erasmus Hogeschool Brussel</b></li>
+    <li><b>Stichting De Meevaart</b></li>
+    <li><b>Babeta M van Loo-Film Art Amsterdam</b></li>
+    <li><b>Albeda college Rotterdam</b></li>
+    <li><b>Debatpodium Arminius Rotterdam</b></li>
+    <li><b>Erasmus Universiteit Rotterdam</b></li>
   </ul>
   
 </div>

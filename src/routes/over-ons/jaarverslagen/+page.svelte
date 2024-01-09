@@ -11,6 +11,7 @@
   <section class="text-container">
     <h1>Over de stichting</h1>
     <h2>Jaarverslagen</h2>
+    <p>Financiële jaarverslagen STRONG.</p>
   </section>
 </div>
 

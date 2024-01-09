@@ -33,19 +33,19 @@
           "placeholder": ""
         }
       },
+      "date": {
+        "type": "Text",
+        "config": {
+          "label": "date",
+          "placeholder": ""
+        }
+      },
       "image": {
         "type": "Image",
         "config": {
           "label": "image",
           "constraint": {},
           "thumbnails": []
-        }
-      },
-      "date": {
-        "type": "Date",
-        "config": {
-          "label": "date",
-          "placeholder": ""
         }
       },
       "read_time": {

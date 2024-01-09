@@ -1,6 +1,6 @@
 <script>
     import { page } from "$app/stores";
-    import logo from "$lib/assets/logo.png";
+    import logo from "$lib/assets/strong-logo.svg";
 </script>
 
 <section>
@@ -19,8 +19,8 @@
         <p><b>Snelle navigatie</b></p>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/estafettemars">Estafettemars</a></li>
-            <li><a href="/workshops">Workshops</a></li>
+            <li><a href="/estafettemars">Kinderrechtenmars</a></li>
+            <li><a href="/workshops">Kinderrechten in Beeld</a></li>
             <li><a href="/meldkaart">Meldkaart</a></li>
             <li><a href="/education">Education</a></li>
             <li><a href="/nieuws">Nieuws</a></li>

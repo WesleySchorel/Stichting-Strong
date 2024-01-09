@@ -6,6 +6,7 @@
   <section class="text-container">
     <h1>Over de stichting</h1>
     <h2>Comité van aanbeveling</h2>
+    <p>Een samengestelde groep mensen die zich aansluiten bij de missie van STRONG.</p>
   </section>
 </div>
 

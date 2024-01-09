@@ -53,6 +53,7 @@
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
     overflow: hidden;
     margin: -1.5rem -1.5rem 0 0;
+    height: 41rem;
   }
 
   video {
@@ -69,6 +70,10 @@
 
   a {
     margin-top: 1rem;
+  }
+
+  span {
+    color: rgb(165, 42, 42);
   }
 
   @media screen and (max-width: 961px) {

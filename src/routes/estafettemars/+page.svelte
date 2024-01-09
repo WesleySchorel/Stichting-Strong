@@ -4,7 +4,7 @@
 
 <div class="grid">
   <section class="text-container">
-    <h1><span>Estafettemars</span></h1>
+    <h1><span>Kinderrechtenmars</span></h1>
     <p>
       In ons scholenproject STRONG wordt jaarlijks voor en door studenten een
       conferentie, debat en protestmars georganiseerd.
@@ -24,8 +24,9 @@
               alt={conferentie.data.title}
             />
             <section class="date">
-              <span>{conferentie.data.date}</span>
               <h3>{conferentie.data.title}</h3>
+              <span>{conferentie.data.date}</span>
+              <p><b>Lees meer →</b></p>
             </section>
           </div>
         </a>
@@ -69,8 +70,19 @@
 
   .date {
     position: absolute;
-    left: 1.5rem;
-    bottom: 1.5rem;
+    left: 0;
+    bottom: 0;
+    color: white
+  }
+
+  section .date {
+    background: linear-gradient(0deg, rgba(0,0,0,0.7142506660867471) 30%, rgba(0,0,0,0) 100%);
+    padding: 1.5rem;
+    padding-top: 5rem;
+    width: 100%;
+  }
+
+  .date p {
     color: white;
   }
 

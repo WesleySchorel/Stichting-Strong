@@ -4,7 +4,7 @@
 
 <div class="grid">
   <section class="text-container">
-    <h1>Workshops</h1>
+    <h1>Kinderrechten in Beeld</h1>
     <h2>{data.workshop.data.title}</h2>
   </section>
 </div>
@@ -56,15 +56,15 @@
   </article>
 </section>
 
-<div class="container">
+<!-- <div class="container">
   <div class="primary-text-container">
     <h2>MEER OVER {data.workshop.data.title}</h2>
     <p>
-      <!-- <span>Meer over de workshop van {data.workshop.data.date}:</span><br /> -->
+      <span>Meer over de workshop van {data.workshop.data.date}:</span><br />
       {data.workshop.data.text2}
     </p>
   </div>
-</div>
+</div> -->
 
 <style>
   .secondary-bg {
@@ -84,6 +84,10 @@
     justify-content: left;
     margin-bottom: 1rem;
     text-transform: uppercase;
+  }
+
+  h1 {
+    width: 76%;
   }
 
   p {
