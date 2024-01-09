@@ -64,6 +64,7 @@
     section {
       background-color: var(--banner-bg);
       padding: 2rem;
+      padding-bottom: 0;
       margin: 2rem;
       margin-bottom: 4rem;
       margin-top: 10rem;
