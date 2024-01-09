@@ -88,7 +88,7 @@
 
     img {
       width: 14rem;
-      height: 18rem;
+      height: 20rem;
       object-fit: cover;
       margin: 0;
       margin-top: 1rem;
