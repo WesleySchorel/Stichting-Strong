@@ -87,7 +87,7 @@
     }
 
     img {
-      width: 18rem;
+      width: 12rem;
       height: 18rem;
       object-fit: cover;
       margin: 0;
