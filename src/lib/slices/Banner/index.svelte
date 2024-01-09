@@ -82,8 +82,12 @@
 
     }
 
+    p {
+      width: 76%;
+    }
+
     img {
-      width: 100%;
+      width: 18rem;
       height: 18rem;
       object-fit: cover;
       margin: 0;
