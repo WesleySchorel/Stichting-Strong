@@ -53,7 +53,7 @@
                     <a
                         href="/estafettemars"
                         class:active={$page.url.pathname === "/estafettemars"}
-                        on:click={handleLinkClickWithCheckbox}>Kinderrechtenmars</a
+                        on:click={handleLinkClickWithCheckbox}>Kinderrechtenconferentie<br>en Kinderrechtenmars</a
                     >
                 </li>
                 <li>
@@ -76,7 +76,7 @@
             <a
                 href="/education"
                 class:active={$page.url.pathname === "/education"}
-                on:click={handleLinkClickWithCheckbox}>Education</a
+                on:click={handleLinkClickWithCheckbox}>Academie</a
             >
         </li>
         <li>
@@ -84,6 +84,13 @@
                 href="/nieuws"
                 class:active={$page.url.pathname === "/nieuws"}
                 on:click={handleLinkClickWithCheckbox}>Nieuws</a
+            >
+        </li>
+        <li>
+            <a
+                href="/archief"
+                class:active={$page.url.pathname === "/archief"}
+                on:click={handleLinkClickWithCheckbox}>Archief</a
             >
         </li>
         <li>
@@ -138,6 +145,7 @@
         display: flex;
         flex-direction: column;
         padding-right: 1rem;
+        padding-bottom: 0.5rem;
         color: var(--c-nav-link);
     }
 

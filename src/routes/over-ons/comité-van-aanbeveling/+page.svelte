@@ -7,6 +7,7 @@
     <h1>Over de stichting</h1>
     <h2>Comité van aanbeveling</h2>
     <p>Een samengestelde groep mensen die zich aansluiten bij de missie van STRONG.</p>
+    <br>
   </section>
 </div>
 
@@ -14,10 +15,9 @@
   <div class="primary-text-container">
     <p>
       <span>Over het comité van aanbeveling:</span><br />
-      Stichting Strong heeft een comité van aanbeveling om prominente en invloedrijke
-      personen te betrekken bij haar missie. Het comité fungeert als een belangrijk netwerk van
-      steun en draagt bij aan het versterken van het maatschappelijk draagvlak voor
-      de initiatieven van Stichting Strong.
+      STRONG heeft een comité van aanbeveling om prominente en invloedrijke personen te betrekken bij
+haar missie. Het comité fungeert als een belangrijk netwerk van steun en draagt bij aan het
+versterken van het maatschappelijk draagvlak voor de initiatieven van STRONG.
     </p>
   </div>
 </div>
@@ -27,23 +27,23 @@
     <span>Lijst comité van aanbeveling:</span>
   </p>
   <ul>
-    <li><b>Anne Haak</b>;<br> Vertrouwensarts, docent huisartsenopleiding en kinderartsen.</li>
-    <li><b>Lodewijk Asscher</b>;<br> Oud minister van Sociale Zaken en Werkgelegenheid en vicepremier.</li>
-    <li><b>Frans Mom</b>;<br> Consultant AIDS and Sexual Rights, Amsterdam.</li>
-    <li><b>Dr. E.M. van de Putte</b>;<br> Kinderarts, initiator/projectvoerder signalering kindermishandeling Wilhelmina Kinder Ziekenhuis/UMC.</li>
-    <li><b>Drs. Ingrid van Russel</b>;<br> Kinderarts, voorzitter werkgroep kindermishandeling, Wilhelmina Kinderziekenhuis/UMC.</li>
-    <li><b>Ben Rensen</b>;<br> Jeugdarts, docent /HAOIO/Cb artsen en publicist kindermishandeling.</li>
     <li><b>André Rouvoet</b>;<br> Oud minister van Jeugd en Gezin.</li>
+    <li><b>Anne Haak</b>;<br> Vertrouwensarts, docent huisartsenopleiding en kinderartsen.</li>
+    <li><b>Ben Rensen</b>;<br> Jeugdarts, docent /HAOIO/Cb artsen en publicist kindermishandeling.</li>
+    <li><b>Drs. Ingrid van Russel</b>;<br> Kinderarts, voorzitter werkgroep kindermishandeling, Wilhelmina Kinderziekenhuis/UMC.</li>
+    <li><b>Frans Mom</b>;<br> Consultant AIDS and Sexual Rights, Amsterdam.</li>
+    <li><b>Jacques Vriens</b>;<br> Kinderboekenschrijver van o.a. ‘Groep zeven slaat terug’.</li>
+    <li><b>Jaap E. Doek</b>;<br> Voormalig voorzitter van het Internationaal Comité voor de rechten van het kind van de Verenigde Naties.</li>
     <li><b>Jolande Schoonenberg</b>;<br> Vertrouwensarts Advies en Meldpunt Kindermishandeling Bureau Jeugdzorg Amsterdam.</li>
     <li><b>Joost Schrickx</b>;<br> Filmmaker en scenarioschrijver.</li>
-    <li><b>Rian Teeuw</b>;<br> Kinderarts Emma Kinderziekenhuis-AMC, voorzitter Team Kindermishandeling AMC Cuno.</li>
-    <li><b>Jaap E. Doek</b>;<br> Voormalig voorzitter van het Internationaal Comité voor de rechten van het kind van de Verenigde Naties.</li>
+    <li><b>Lodewijk Asscher</b>;<br> Oud minister van Sociale Zaken en Werkgelegenheid en vicepremier.</li>
     <li><b>Mw. M.L. van Kleef</b>;<br> Algemeen Directeur, Raad voor de Kinderbescherming Landelijk Bureau Utrecht.</li>
-    <li><b>Wynie van den Berg</b>;<br> Gezondheidszorgpsychologe, psychosociale afd. Emma Kinder-ziekenhuis.</li>
-    <li><b>Jacques Vriens</b>;<br> Kinderboekenschrijver van o.a. ‘Groep zeven slaat terug’.</li>
-    <li><b>S.P.M. Uiterwaal</b>;<br> MD, PhD Associate Professor of clinical epidemiology Jules Center for Health Sciences and Primary Care University Medical Center.</li>
     <li><b>Prof.dr. J.C.M. Willems</b>;<br> Bijz. hoogleraar Rechten van het kind, Vrije Universiteit Amsterdam.</li>
-  </ul>       
+    <li><b>Rian Teeuw</b>;<br> Kinderarts Emma Kinderziekenhuis-AMC, voorzitter Team Kindermishandeling AMC Cuno.</li>
+    <li><b>S.P.M. Uiterwaal</b>;<br> MD, PhD Associate Professor of clinical epidemiology Jules Center for Health Sciences and Primary Care University Medical Center.</li>
+    <li><b>Wynie van den Berg</b>;<br> Gezondheidszorgpsychologe, psychosociale afd. Emma Kinder-ziekenhuis.</li>
+    <li><b>Dr. E.M. van de Putte</b>;<br> Kinderarts, initiator/projectvoerder signalering kindermishandeling Wilhelmina Kinder Ziekenhuis/UMC.</li>
+  </ul>   
 </div>
 
 <style>

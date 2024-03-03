@@ -1,10 +1,11 @@
 <script>
   export let data;
+  import StrongMars2023 from "$lib/assets/STRONG-Mars-2023.mp4";
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <h1>Kinderrechtenmars</h1>
+    <h1>Kinderrechtenconferentie en Kinderrechtenmars</h1>
     <h2>{data.conferentie.data.title}</h2>
   </section>
 </div>
@@ -12,14 +13,17 @@
 <div class="container">
   <div class="primary-text-container">
     <p>
-      <span>De kinderechtenmars van {data.conferentie.data.date}:</span><br />
+      <span
+        >De Kinderrechten conferentie en Kinderrechtenmars van {data.conferentie
+          .data.date}:</span
+      ><br />
       {data.conferentie.data.text1}
     </p>
   </div>
 </div>
 
 <section class="secondary-bg">
-  <h2>Foto's</h2>
+  <h2>Foto's en Video's</h2>
   <article>
     <div class="conferenties-container">
       <img
@@ -53,6 +57,9 @@
         alt={data.conferentie.data.title}
       />
     </div>
+    <video playsinline autoplay muted loop>
+      <source src={StrongMars2023} type="video/mp4" />
+    </video>
   </article>
 </section>
 
@@ -99,7 +106,13 @@
     mask-image:
       linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%),
       rgba(0, 0, 0, 0) 0%;
-      box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
+  }
+
+  video {
+    height: 36rem;
+    width: 100%;
+    padding: 3rem;
   }
 
   .conferenties-container {
@@ -199,6 +212,16 @@
       background-color: var(--secondary-bg);
       padding: 2rem;
       /* border: 3px solid red; */
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    video {
+      padding: 0rem;
+      margin-top: -12rem;
+      margin-bottom: -8rem;
     }
   }
 </style>

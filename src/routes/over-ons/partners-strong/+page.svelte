@@ -26,21 +26,25 @@
     <span>Onze partners:</span>
   </p>
   <ul>
-    <li><b>Gemeentelijk stadsarchief</b></li>
+    <li><b>Albeda college Rotterdam</b></li>
+    <li><b>Babeta M van Loo-Film Art Amsterdam</b></li>
+    <li><b>Childpress locatie Amsterdam</b></li>
+    <li><b>Defence for Children International</b></li>
+    <li><b>Debatpodium Arminius Rotterdam</b></li>
+    <li><b>Erasmus Hogeschool Brussel</b></li>
+    <li><b>Erasmus Universiteit Rotterdam</b></li>
     <li><b>Gemeente Amsterdam</b></li>
+    <li><b>Gemeentelijk stadsarchief</b></li>
     <li><b>HVA</b></li>
+    <li><b>Kinderrechten collectief</b></li>
+    <li><b>Kindertelefoon</b></li>
     <li><b>NUT Fonds</b></li>
     <li><b>ROC Amsterdam</b></li>
-    <li><b>Stichting Praat</b></li>
-    <li><b>Vredesfonds</b></li>
-    <li><b>Childpress locatie Amsterdam</b></li>
-    <li><b>Erasmus Hogeschool Brussel</b></li>
     <li><b>Stichting De Meevaart</b></li>
-    <li><b>Babeta M van Loo-Film Art Amsterdam</b></li>
-    <li><b>Albeda college Rotterdam</b></li>
-    <li><b>Debatpodium Arminius Rotterdam</b></li>
-    <li><b>Erasmus Universiteit Rotterdam</b></li>
-  </ul>
+    <li><b>Stichting Praat</b></li>
+    <li><b>Universiteit van Amsterdam</b></li>
+    <li><b>Vredesfonds</b></li>
+</ul>
   
 </div>
 

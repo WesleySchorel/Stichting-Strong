@@ -9,6 +9,8 @@
   </div>
   <div class="text">
     <h2>{slice.primary.title}</h2>
+    <span>Darryl Amankwah - reporter, spreker &amp; schrijver maakt zich STRONG voor Kinderrechten. Lees hier
+      zijn geschreven oproep tot solidariteit in de strijd voor gelijkheid (art. 2 IVRK).</span>
     <p>{@html slice.primary.text}</p>
   </div>
 </div>
@@ -25,10 +27,11 @@
   }
 
   img {
-    width: 38rem;
-    height: 24rem;
+    width: 32rem;
+    height: 32rem;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 100%;
+    border: 1rem solid #c1eafe;
   }
 
   .container {
@@ -44,10 +47,18 @@
     grid-area: media;
   }
 
+  p {
+    margin-top: 1rem;
+  }
+
   .text {
     grid-area: text;
     padding-left: 1.5rem;
     width: 95%;
+  }
+
+  span {
+    font-size: 1rem;
   }
 
   @media screen and (max-width: 961px) {
@@ -56,24 +67,22 @@
     }
 
     .container {
-      display: grid;
-      grid-template-columns: 1.2fr;
-      grid-template-rows: 1fr 1fr;
-      grid-auto-columns: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
-        "text"
-        "media";
-      padding-bottom: 0;
-      margin: 0;
-    }
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "text"
+    "media"; 
+    margin-bottom: -85rem;
+}
 
     img {
-      width: 100%;
-      height: 20rem;
+      width: auto;
+      height: 16rem;
       object-fit: cover;
-      border-radius: 10px;
+      margin-top: 2rem;
     }
 
     .text {

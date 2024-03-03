@@ -1,13 +1,14 @@
 <script>
   export let data;
+  import archief from "$lib/assets/archief-thumbnail.jpg";
 </script>
 
 <div class="grid">
   <section class="text-container">
-    <h1><span>Kinderrechtenmars</span></h1>
+    <h1><span>Kinderrechtenconferentie en Kinderrechtenmars</span></h1>
     <p>
       In ons scholenproject STRONG wordt jaarlijks voor en door studenten een
-      conferentie, debat en protestmars georganiseerd.
+      Kinderrechten conferentie, -debat en -mars georganiseerd.
     </p>
   </section>
 </div>
@@ -31,6 +32,18 @@
           </div>
         </a>
       {/each}
+      <a href="/archief">
+        <div class="conferentie">
+          <img
+            src={archief}
+            alt="archief thumbnail"
+          />
+          <section class="date">
+            <h3>Bekijk het archief voor voorgaande Kinderrechtenconferenties.</h3>
+            <p><b>Bekijk het archief →</b></p>
+          </section>
+        </div>
+      </a>
     </div>
   </article>
 </section>
@@ -65,18 +78,22 @@
     mask-image:
       linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 100%),
       rgba(0, 0, 0, 0) 0%;
-      box-shadow: 10px 10px 15px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 15px -15px rgba(0, 0, 0, 0.75);
   }
 
   .date {
     position: absolute;
     left: 0;
     bottom: 0;
-    color: white
+    color: white;
   }
 
   section .date {
-    background: linear-gradient(0deg, rgba(0,0,0,0.7142506660867471) 30%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7142506660867471) 30%,
+      rgba(0, 0, 0, 0) 100%
+    );
     padding: 1.5rem;
     padding-top: 5rem;
     width: 100%;
@@ -169,6 +186,10 @@
     .text-container {
       margin: 2rem;
       margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
     }
   }
 </style>

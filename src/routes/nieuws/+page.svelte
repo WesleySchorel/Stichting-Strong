@@ -10,7 +10,7 @@
 
 <div class="nieuws-container">
   <div class="categorieën">
-    <h3>Blijf op de hoogte..</h3>
+    <h3>Blijf op de hoogte!</h3>
     <p>
       Welkom op onze nieuwspagina, waar we je op de hoogte houden van het
       laatste en meest relevante nieuws over Stichting Strong.
@@ -115,6 +115,7 @@
 
     .categorieën {
       margin-top: -2rem;
+      margin-bottom: 10rem;
     }
 
     .articles {

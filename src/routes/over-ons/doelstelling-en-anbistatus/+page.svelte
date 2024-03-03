@@ -7,28 +7,46 @@
   <section class="text-container">
     <h1>Over de stichting</h1>
     <h2>Doelstelling en ANBI status</h2>
+    <p>Doelstelling van STRONG en hoe zij hun doel bereiken</p>
+    <br>
   </section>
 </div>
 
 <div class="container">
   <div class="primary-text-container">
     <p>
-      <span>De Stichting heeft ten doel:</span><br />
-      Alle kinderen en jongeren bekend en bewust te maken met het bestaan van hun
-      rechten conform het IVRK (Internationale Verdrag Inzake de Rechten van het
-      Kind) Waarom deze in het leven zijn geroepen? Waarom ze belangrijk zijn. Hoe
-      je deze rechten actief kunt maken en betekenis kunt geven, zowel voor jezelf,
-      als ook voor de medemensen om je heen. Versus het stoppen en voorkomen van
-      het verwaarlozen, mishandelen en doden van kinderen. Conform Art.19: Recht
-      op bescherming tegen alle vormen van geweld welke is ingebed binnen de 54 artikelen
-      van het Internationale Kinderrechtenverdrag. www.kinderrechten.nl En al wat
-      met een en ander rechtstreeks of zijdelings verband houdt of daartoe bevorderlijk
-      kan zijn, alles in de ruimste zin des woord.
+      <span>Doelstelling STRONG</span><br />
+      STRONG wil alle kinderen en jongeren bekend en bewust maken van het bestaan van hun
+      Kinderrechten conform het IVRK. Waarom zijn ze in het leven geroepen en zijn ze zo belangrijk? Hoe
+      kun je deze rechten actief maken en betekenis geven? Zowel voor jezelf, als ook voor de
+      medemensen om je heen, dieren en natuur. Oftewel Moeder Aarde met ‘alles wat erop leeft, groeit en
+      bloeit’.
+      <br><br>
+      Dit alles ter preventie van kansenongelijkheid en het verwaarlozen, mishandelen, misbruiken en
+      doden van kinderen, conform Art.19: Recht op bescherming tegen alle vormen van geweld. Een
+      gezonde en veilige ontwikkeling is ingebed binnen de 54 artikelen van het Kinderrechtenverdrag. En
+      al wat met een en ander rechtstreeks of zijdelings verband houdt of daartoe bevorderlijk kan zijn, in
+      de ruimste zin des woord.
+      <br><br>
+      STRONG biedt jongeren een podium voor hun rechten op te komen en hun stem te versterken. Deze
+      vorm van empowering doet STRONG door middel van:
     </p>
+
+    <ul class="doelstelling">
+      <li>Kinderen en jongeren te informeren op hun scholen en in de wijk</li>
+      <li>Het organiseren van de STRONG Kinderrechtenconferentie voor en door jongeren</li>
+      <li>Organiseren van Debat manifestatie voor en door jongeren</li>
+      <li>Kinderrechtenmars voor en door jongeren</li>
+      <li>STRONG Academie. Peer2Peer education over het IVRK en de Kinderrechten.
+        Voorlichting aan jongeren, opvoeders, instanties in de wijk en professionals die
+        (beroepsmatig) met kinderen te maken hebben.</li>
+    </ul>
+
+    <p>STRONG is onderdeel van Stichting Sterk</p>
 
     <div class="list-container">
       <p>
-        <span>De stichting tracht dit doel onder meer te bereiken door:</span>
+        <span>Stichting Estafettemars voor de Rechten van het Kind (STERK)</span>
       </p>
       <ul>
         <li>Kinderen en Jongeren te bereiken via de scholen.</li>
@@ -53,7 +71,7 @@
       <ul>
         <li>Kramatweg 14F, 1095JN Amsterdam</li>
         <li>Mobiel: 0626466912</li>
-        <li>Email: info@stichtingstrong.nl</li>
+        <li>Email: <a href="mailto:info@stichtingstrong.nl">info@stichtingstrong.nl</a></li>
         <li>RSIN: 8185.60.216</li>
       </ul>
     </div>
@@ -64,14 +82,20 @@
 
 <style>
   .list-container {
-    margin-top: 2rem;
+    margin-top: 4rem;
     font-size: 22px;
   }
 
-  .list-container li {
+  li {
     list-style-position: inside;
     list-style-type: "◆ ";
     margin-top: 0.5rem;
+  }
+
+  .doelstelling {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.375rem;
   }
 
   .container {

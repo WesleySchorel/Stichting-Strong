@@ -13,7 +13,7 @@
   <div class="primary-text-container">
     <p>
       <!-- <span>De workshop van {data.workshop.data.date}:</span><br /> -->
-      {data.workshop.data.text1}
+      {@html data.workshop.data.text1}
     </p>
   </div>
 </div>

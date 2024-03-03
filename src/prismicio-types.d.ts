@@ -132,6 +132,28 @@ interface ConferentieDocumentData {
   text2: prismic.KeyTextField;
 
   /**
+   * video_title field in *conferentie*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.video_title
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  video_title: prismic.KeyTextField;
+
+  /**
+   * video field in *conferentie*
+   *
+   * - **Field Type**: Link to Media
+   * - **Placeholder**: *None*
+   * - **API ID Path**: conferentie.video
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  video: prismic.LinkToMediaField;
+
+  /**
    * Slice Zone field in *conferentie*
    *
    * - **Field Type**: Slice Zone

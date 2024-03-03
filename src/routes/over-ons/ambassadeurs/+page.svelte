@@ -5,79 +5,31 @@
 <div class="grid">
   <section class="text-container">
     <h1>Over de stichting</h1>
-    <h2>Team STRONG</h2>
-    <p>De mensen achter de projecten en initiatieven van STRONG</p>
-    <br />
+    <h2>Ambassadeurs</h2>
+    <p>De ambassadeurs die onze boodschap en missie uitdragen.</p>
   </section>
 </div>
 
-<div class="container">
+<!-- <div class="container">
   <div class="primary-text-container">
     <p>
-      <span>Over de mensen achter STRONG</span><br>
-      Om de doelen van STRONG efficiënt en effectief te kunnen bewerkstelligen, zijn
-      er vele mensen actief. Vrijwilligers, studenten en stagiaires helpen met veel
-      verschillende onderdelen van het werk om de doelen te halen. Om dit allemaal
-      in goede banen te leiden, is er een bestuur gekozen, die sterke affiniteit
-      heeft met het onderwerp en inhoudelijk, dan wel procedureel waarde toevoegt.
+      <span>Over het comité van aanbeveling:</span><br />
+      Stichting Strong heeft een comité van aanbeveling om prominente en invloedrijke
+      personen te betrekken bij haar missie. Het comité fungeert als een belangrijk netwerk van
+      steun en draagt bij aan het versterken van het maatschappelijk draagvlak voor
+      de initiatieven van Stichting Strong.
     </p>
   </div>
-</div>
+</div> -->
 
 <div class="list-container">
   <p>
-    <span>Ons team:</span>
+    <span>Lijst ambassadeurs:</span>
   </p>
   <ul>
-    <a href="/verhalen/sjieka">
-      <li>
-        <b>Sjieka van Rooijen</b>
-        <p>Initiatiefnemer en voorzitter</p>
-        <br />
-        <p>Het verhaal van Sjieka →</p>
-      </li>
-    </a>
-    <a href="/verhalen/pauline">
-      <li>
-        <b>Pauline Hoogland</b>
-        <p>Ontwikkelaar Strong Education</p>
-        <br />
-        <p>
-          Het verhaal van Pauline →
-        </p>
-      </li>
-    </a>
-    <a href="/verhalen/trudie">
-      <li>
-        <b>Trudie Groen</b>
-        <p>Onderwijskundige</p>
-        <br>
-        <p>
-          Het verhaal van Trudie →
-        </p>
-      </li>
-    </a>
-    <a href="/verhalen/wesley">
-      <li>
-        <b>Wesley Schorel</b>
-        <p>Frontend designer & developer</p>
-        <br>
-        <p>
-          Het verhaal van Wesley →
-        </p>
-      </li>
-    </a>
-    <li>
-      <b>Hannah Freud</b>
-      <p>Bestuurslid</p>
-      <br />
-    </li>
-    <li>
-      <b>Leo Dijkman</b>
-      <p>Bestuur ondersteuner/adviseur</p>
-      <br />
-    </li>
-  </ul>
+    <li><b>Danny Dijkhuizen</b></li>
+    <li><b>Jefren Mesa</b></li>
+  </ul>       
 </div>
 
 <style>
@@ -104,7 +56,7 @@
     border-radius: 10px;
   }
 
-  .container {
+  /* .container {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -120,7 +72,7 @@
     grid-area: text-container;
     width: 95%;
     margin-top: 1rem;
-  }
+  } */
 
   span {
     color: rgb(0, 130, 200);
@@ -152,15 +104,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 8rem 8rem 0rem 8rem;
+    margin: 8rem 8rem 3rem 8rem;
     margin-top: 10rem;
-  }
-
-  a:hover {
-    transform: translateY(-6px);
-    opacity: 0.65;
-    transition: 0.2s;
-    cursor: pointer;
   }
 
   @media screen and (max-width: 961px) {
@@ -187,10 +132,10 @@
       margin: 1rem 0rem 1rem 0rem;
     }
 
-    .container {
+    /* .container {
       margin: 0 2rem 1rem 2rem;
       width: 85%;
-    }
+    } */
 
     .list-container li {
       font-size: 18px;
