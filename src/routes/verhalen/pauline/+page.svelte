@@ -1,6 +1,6 @@
 <script>
   // export let data;
-  import pauline from "$lib/assets/pauline.jpeg";
+  import pauline from "$lib/assets/pauline.webp";
 </script>
 
 <div class="grid">
