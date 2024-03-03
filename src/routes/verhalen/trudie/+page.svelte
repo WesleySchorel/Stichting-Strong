@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import trudie from "$lib/assets/trudie.jpg";
+    import trudie from "$lib/assets/trudie.webp";
   </script>
   
   <div class="grid">

@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import wesley from "$lib/assets/wesley.jpeg";
+    import wesley from "$lib/assets/wesley.webp";
   </script>
   
   <div class="grid">

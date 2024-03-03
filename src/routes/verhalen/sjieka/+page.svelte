@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import sjieka from "$lib/assets/sjieka.jpeg";
+    import sjieka from "$lib/assets/sjieka.webp";
   </script>
   
   <div class="grid">
