@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import Sjieka from "$lib/assets/sjieka.jpeg";
+    import sjieka from "$lib/assets/sjieka.jpeg";
   </script>
   
   <div class="grid">
@@ -13,7 +13,7 @@
   <div class="container">
     <div class="primary-text-container">
       <p>
-        <img src={Sjieka} alt="Foto van Sjieka">
+        <img src={sjieka} alt="Foto van Sjieka">
         <br>
         Mijn naam is Sjieka van Rooijen, beeldend kunstenaar, initiator en oprichter van STERK-STRONG. Ik
         vervul het huidige voorzitterschap met daaraan gekoppeld de uitvoeringsorganisatie met als doel de

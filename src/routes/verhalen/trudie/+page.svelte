@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import Trudie from "$lib/assets/trudie.jpg";
+    import trudie from "$lib/assets/trudie.jpg";
   </script>
   
   <div class="grid">
@@ -13,7 +13,7 @@
   <div class="container">
     <div class="primary-text-container">
       <p>
-        <img src={Trudie} alt="Foto van Trudie">
+        <img src={trudie} alt="Foto van Trudie">
         <br>
         Kinderrechten lijken doodgewoon maar zijn heel bijzonder. Vanuit mijn actieve rol binnen Amnesty
         International Haarlemmermeer is het logisch om te gaan samenwerken met de STRONG

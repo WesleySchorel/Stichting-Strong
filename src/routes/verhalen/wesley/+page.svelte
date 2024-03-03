@@ -1,6 +1,6 @@
 <script>
     // export let data;
-    import Wesley from "$lib/assets/wesley.jpeg";
+    import wesley from "$lib/assets/wesley.jpeg";
   </script>
   
   <div class="grid">
@@ -13,7 +13,7 @@
   <div class="container">
     <div class="primary-text-container">
       <p>
-        <img src={Wesley} alt="Foto van Wesley" />
+        <img src={wesley} alt="Foto van Wesley" />
         <br />
   
         Mijn naam is Wesley Schorel, ik ben een Frontend Designer & Developer. Ik heb deze website gerealiseerd voor Stichting Strong.

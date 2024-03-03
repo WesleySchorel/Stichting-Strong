@@ -1,6 +1,6 @@
 <script>
   // export let data;
-  import Pauline from "$lib/assets/pauline.jpeg";
+  import pauline from "$lib/assets/pauline.jpeg";
 </script>
 
 <div class="grid">
@@ -13,7 +13,7 @@
 <div class="container">
   <div class="primary-text-container">
     <p>
-      <img src={Pauline} alt="Foto van Pauline" />
+      <img src={pauline} alt="Foto van Pauline" />
       <br />
 
       Mijn gedrevenheid voor het werken bij Stichting STRONG komt vanuit mijn
