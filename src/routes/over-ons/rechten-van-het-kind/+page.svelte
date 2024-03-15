@@ -31,23 +31,18 @@
       <br><br>
       De KidsRights Index 2023 toont aan dat Nederland fundamentele Kinderrechten schendt. Het gaat
       hier met name om de domeinen Gezondheid en Klimaat voor de Kinderrechten. Nederland is daarom
-      gezakt van de 4e naar de 20e plaats in het naleven van de Kinderrechten (KidsRights, 2023) .
+      gezakt van de 4e naar de 20e plaats in het naleven van de Kinderrechten (KidsRights, 2023).
       Aanbevelingen van het VN Kinderrechten comité zijn dan ook dat jongeren beter geïnformeerd
       moeten worden over hun Kinderrechten en moeten kunnen mee vormgeven aan (overheids-)
       beleidszaken die hen aangaan. Ook moet het naleven van de Kinderrechten beter gemonitord
-      worden (Kinderrechten.nl, 2022) .
-      En dat is hard nodig. In Nederland hebben tussen de 90.000 en 127.000 van de 3.300.000
-      minderjarigen te maken met kindermishandeling (NJI, 2023) (VWS, 2023) (CBS, 2023) . Dat is dus 1 op
-      de 30 kinderen ofwel gemiddeld 1 kind per klas! Daarbij sterven gemiddeld 50 kinderen per jaar aan
-      de gevolgen van Kindermishandeling (Kinderombudsman, 2023) . Stel je voor; dat is 1 kind per
-      week!!!!
+      worden (Kinderrechten.nl, 2022).
       <br><br>
       Ondertussen is er ook sprake van een verborgen epidemie onder jongeren als het gaat om de
       rechten van kinderen wanneer ouders zijn gescheiden. Jaarlijks krijgen 70.000 kinderen te maken
       met een scheiding van hun ouders. Naar schatting lijden 16.000 kinderen daarvan onder de complexe
       scheidingsproblematiek van hun ouders (Visser, M., Delft, I. van, Schoenmaker, K., Schipper, C. De &amp;
-      Finkenauer, C., 2017) . Rond de 1120 kinderen hiervan hebben contactverlies met een van de ouders
-      (VNG, 2021) . Parental Alienation (PA) of ouderverstoting, is een vorm van contactverlies op basis van
+      Finkenauer, C., 2017). Rond de 1120 kinderen hiervan hebben contactverlies met een van de ouders
+      (VNG, 2021). Parental Alienation (PA) of ouderverstoting, is een vorm van contactverlies op basis van
       psychische kindermishandeling met grote gevolgen voor de ontwikkeling van kinderen waar nog
       weinig over gesproken of op gesignaleerd wordt. Hoeveel kinderen ken jij met gescheiden ouders of
       hoeveel kinderen zie en hoor je hierover in je klas?

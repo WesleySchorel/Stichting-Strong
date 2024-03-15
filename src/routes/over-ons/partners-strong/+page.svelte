@@ -34,15 +34,14 @@
     <li><b>Erasmus Hogeschool Brussel</b></li>
     <li><b>Erasmus Universiteit Rotterdam</b></li>
     <li><b>Gemeente Amsterdam</b></li>
-    <li><b>Gemeentelijk stadsarchief</b></li>
-    <li><b>HVA</b></li>
+    <li><b>Hogeschool van Amsterdam</b></li>
     <li><b>Kinderrechten collectief</b></li>
     <li><b>Kindertelefoon</b></li>
     <li><b>NUT Fonds</b></li>
     <li><b>ROC Amsterdam</b></li>
+    <li><b>Stadsarchief Amsterdam</b></li>
     <li><b>Stichting De Meevaart</b></li>
     <li><b>Stichting Praat</b></li>
-    <li><b>Universiteit van Amsterdam</b></li>
     <li><b>Vredesfonds</b></li>
 </ul>
   

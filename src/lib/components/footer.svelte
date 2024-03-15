@@ -19,7 +19,7 @@
         <p><b>Snelle navigatie</b></p>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/estafettemars">Kinderrechtenmars</a></li>
+            <li><a href="/estafettemars">Kinderrechtenconferentie<br>en Kinderrechtenmars</a></li>
             <li><a href="/workshops">Kinderrechten in Beeld</a></li>
             <li><a href="/meldkaart">Meldkaart</a></li>
             <li><a href="/education">Academie</a></li>

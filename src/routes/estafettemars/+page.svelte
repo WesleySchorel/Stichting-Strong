@@ -8,7 +8,8 @@
     <h1><span>Kinderrechtenconferentie en Kinderrechtenmars</span></h1>
     <p>
       In ons scholenproject STRONG wordt jaarlijks voor en door studenten een
-      Kinderrechten conferentie, -debat en -mars georganiseerd.
+      Kinderrechtenconferentie, -debat en -mars georganiseerd. Deze producten zijn los van
+      elkaar te organiseren en bekrachtigen elkaar wanneer zij gezamenlijk vorm krijgen.      
     </p>
   </section>
 </div>

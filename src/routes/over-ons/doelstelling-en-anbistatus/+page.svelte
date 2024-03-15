@@ -46,26 +46,6 @@
 
     <div class="list-container">
       <p>
-        <span>Stichting Estafettemars voor de Rechten van het Kind (STERK)</span>
-      </p>
-      <ul>
-        <li>Kinderen en Jongeren te bereiken via de scholen.</li>
-        <li>
-          Het organiseren van de STRONG Kinderrechtenconferentie (Supporting The
-          Rights Of New Generations) voor en door jongeren.
-        </li>
-        <li>Debat manifestatie.</li>
-        <li>Kinderrechten-mars-manifestatie.</li>
-        <li>
-          STRONG Kinderrechten educatie. Peer tot peer education.
-          Voorlichting/presentaties aan opvoeders, instanties in de wijk, en
-          personen die (beroepsmatig) met kinderen te maken hebben.
-        </li>
-      </ul>
-    </div>
-
-    <div class="list-container">
-      <p>
         <span>Stichting Estafettemars voor de Rechten van het Kind (STERK)</span><br />
       </p>
       <ul>

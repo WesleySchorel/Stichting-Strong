@@ -43,7 +43,6 @@
             <br>
             Onze educatieve programma’s zijn speciaal ontwikkeld als burgerschapsonderwijs in het voortgezet-
             en primair onderwijs. We bieden lesmateriaal en workshops die gebaseerd zijn op en doorvlochten
-            <br><br>
             zijn met de kernwaarden van het IVRK en de Kinderrechten. Jongeren oefenen in het democratisch
             en solidair denken, praten en handelen en doen ervaringen op rondom het deelnemen in een
             democratisch proces.
@@ -175,7 +174,7 @@ ons op. <a href="mailto:paulienhoogland@stichtingstrong.nl">paulinehoogland@stic
     list-style-position: inside;
     list-style-type: "◆ ";
     margin-top: -1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     font-size: 1.375rem;
   }
 

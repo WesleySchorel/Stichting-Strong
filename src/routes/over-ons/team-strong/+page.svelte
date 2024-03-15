@@ -40,7 +40,7 @@
     <a href="/verhalen/pauline">
       <li>
         <b>Pauline Hoogland</b>
-        <p>Ontwikkelaar Strong Education</p>
+        <p>Ontwikkelaar STRONG Academie</p>
         <br />
         <p>
           Het verhaal van Pauline →
